@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "channels": {
+    "type": "array",
+    "uniqueItems": true,
+    "items" : {
+      "type": "object",
+      "required": [
+        "id"
+      ],
+      "properties": {
+        "id": "string",
+        "title": "string",
+        "description": "string",
+        "dj": "string",
+        "djmail": "string",
+        "genre": "string",
+        "image": "string",
+        "largeimage": "string",
+        "xlimage": "string",
+        "twitter": "string",
+        "updated": "string",
+        "playlists": {
+          "type": "array",
+          "uniqueItems": true,
+          "items" : {
+            "type" : "object",
+            "required" : [
+              "url",
+              "format",
+              "quality"
+            ],
+            "properties" : {
+              "url": "string",
+              "format": [
+                "mp3",
+                "aac",
+                "aacp"
+              ],
+              "quality": [
+                "low",
+                "high",
+                "highest"
+              ]
+            }
+          }
+        },
+        "listeners": {
+          "type": "string",
+          "pattern": "[0-9]+"
+        },
+        "lastPlaying": "string"
+      }
+    }
+  }
+}
