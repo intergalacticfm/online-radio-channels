@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
   <xs:element name="channels">
     <xs:annotation>
-      <xs:documentation>unique channels of an online radio station</xs:documentation>
+      <xs:documentation>channels of an online radio station</xs:documentation>
     </xs:annotation>
     <xs:complexType>
       <xs:sequence>
@@ -16,7 +16,7 @@
   </xs:element>
   <xs:element name="channel">
     <xs:annotation>
-      <xs:documentation>channel with descriptions, artwork, streams in different formats and qualities and metadata on playing now and number of listeners</xs:documentation>
+      <xs:documentation>unique channel with descriptions, artwork, streams in different formats and qualities and metadata on last playing and number of listeners</xs:documentation>
     </xs:annotation>
     <xs:complexType>
       <xs:sequence>
@@ -47,22 +47,22 @@
   </xs:element>
   <xs:element name="title" type="xs:string">
     <xs:annotation>
-      <xs:documentation>name of the channel, possibly in CDATA, e.g. <![CDATA[Best music of the Eighties]]></xs:documentation>
+      <xs:documentation>name of the channel, preferably in CDATA, e.g. <![CDATA[Best music of the Eighties]]> or Best music of the Eighties</xs:documentation>
     </xs:annotation>
   </xs:element>
   <xs:element name="description" type="xs:string">
     <xs:annotation>
-      <xs:documentation>description or subtitle of the channel, possibly in CDATA, e.g. <![CDATA[Every day Eighties music for all to enjoy]]></xs:documentation>
+      <xs:documentation>description or subtitle of the channel, preferably in CDATA, e.g. <![CDATA[Every day Eighties music for all to enjoy]]> or Every day Eighties music for all to enoy</xs:documentation>
     </xs:annotation>
   </xs:element>
   <xs:element name="dj" type="xs:string">
     <xs:annotation>
-      <xs:documentation>name of the DJ, possibly in CDATA, e.g. <![CDATA[John Smith]]></xs:documentation>
+      <xs:documentation>name of the DJ, preferably in CDATA, e.g. <![CDATA[John Smith]]> or John Smith</xs:documentation>
     </xs:annotation>
   </xs:element>
   <xs:element name="djmail" type="xs:string">
     <xs:annotation>
-      <xs:documentation>email addres of the DJ in all lower case, possibly in CDATA, e.g. <![CDATA[john.smith@station.radio]]></xs:documentation>
+      <xs:documentation>email addres of the DJ in all lower case, preferably in CDATA, e.g. <![CDATA[john.smith@station.radio]]> or john.smith@station.radio</xs:documentation>
     </xs:annotation>
   </xs:element>
   <xs:element name="genre" type="xs:string">
@@ -145,8 +145,11 @@
   </xs:element>
   <xs:element name="listeners" type="xs:integer">
     <xs:annotation>
-      <xs:documentation>the number of listeners at the moment this file was generated, e.g. 0</xs:documentation>
+      <xs:documentation>number of listeners at the moment this file was generated, e.g. 0</xs:documentation>
     </xs:annotation>
   </xs:element>
   <xs:element name="lastPlaying" type="xs:string"/>
+    <xs:annotation>
+      <xs:documentation>last playing information, preferably in CDATA, e.g. <![CDATA[Artist - Track Title]]> or Artist - Track Title</xs:documentation>
+    </xs:annotation>
 </xs:schema>
