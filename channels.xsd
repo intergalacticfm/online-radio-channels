@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="channels">
+    <xs:annotation>
+      <xs:documentation>unique channels of an online radio station</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="channel"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:unique name="ChannelIDUniqueKey">
+        <xs:selector xpath="channel" />
+        <xs:field xpath="@id" />
+    </xs:unique>
+  </xs:element>
+  <xs:element name="channel">
+    <xs:annotation>
+      <xs:documentation>channel with descriptions, artwork, streams in different formats and qualities and metadata on playing now and number of listeners</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="title"/>
+        <xs:element minOccurs="0" ref="description"/>
+        <xs:element minOccurs="0" ref="dj"/>
+        <xs:element minOccurs="0" ref="djmail"/>
+        <xs:element minOccurs="0" ref="genre"/>
+        <xs:element minOccurs="0" ref="image"/>
+        <xs:element minOccurs="0" ref="largeimage"/>
+        <xs:element minOccurs="0" ref="xlimage"/>
+        <xs:element minOccurs="0" ref="twitter"/>
+        <xs:element minOccurs="0" ref="updated"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="fastpls"/>
+          <xs:element ref="highestpls"/>
+          <xs:element ref="slowpls"/>
+        </xs:choice>
+        <xs:element minOccurs="0" ref="listeners"/>
+        <xs:element minOccurs="0" ref="lastPlaying"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NMTOKEN">
+        <xs:annotation>
+          <xs:documentation>unique identifier of the channel, e.g. best80s</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="title" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>name of the channel, possibly in CDATA, e.g. <![CDATA[Best music of the Eighties]]></xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="description" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>description or subtitle of the channel, possibly in CDATA, e.g. <![CDATA[Every day Eighties music for all to enjoy]]></xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="dj" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>name of the DJ, possibly in CDATA, e.g. <![CDATA[John Smith]]></xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="djmail" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>email addres of the DJ in all lower case, possibly in CDATA, e.g. <![CDATA[john.smith@station.radio]]></xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="genre" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>name of the genre, e.g. Eighties or for more than one genre seprated with a comma and a space such as Electronic, Disco, Italo (this is the only case insensitive element but capitalisation is encouraged for human readability)</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="image" type="xs:anyURI">
+    <xs:annotation>
+      <xs:documentation>image in preferably 120 x 120 pixels, e.g. http://api.somafm.com/img/u80s-120.png</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="largeimage" type="xs:anyURI">
+    <xs:annotation>
+      <xs:documentation>large image in preferably 256 x 256 pixels, e.g. http://api.somafm.com/logos/256/u80s256.png</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="xlimage" type="xs:anyURI">
+    <xs:annotation>
+      <xs:documentation>extra large image in preferably 512 x 512 pixels, e.g. http://api.somafm.com/logos/512/u80s512.png</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="twitter" type="xs:NCName">
+    <xs:annotation>
+      <xs:documentation>username on Twitter without the @, e.g. underground80s</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="updated" type="xs:integer">
+    <xs:annotation>
+      <xs:documentation>timestamp this file was generated in seconds for UTC, e.g. 1445471780</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="fastpls">
+      <xs:annotation>
+        <xs:documentation>URI to playlist in PLS format containing medium quality streams, playlist starts with main stream which is followed by graceful degradation backup streams, e.g. http://somafm.com/u80s.pls with mp3 as format and http://somafm.com/u80s64.pls with aacp as format</xs:documentation>
+      </xs:annotation>
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:anyURI">
+          <xs:attribute name="format" use="required" type="xs:NCName">
+            <xs:annotation>
+              <xs:documentation>format of all streams in playlist, e.g. mp3, aac or aacp </xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="highestpls">
+      <xs:annotation>
+        <xs:documentation>URI to playlist in PLS format containing high quality streams, playlist starts with main stream which is followed by graceful degradation backup streams, e.g. http://somafm.com/u80s192.pls with mp3 as format and http://somafm.com/u80s130.pls with aac as format</xs:documentation>
+      </xs:annotation>
+    <xs:complexType>
+        <xs:simpleContent>
+          <xs:extension base="xs:anyURI">
+            <xs:attribute name="format" use="required" type="xs:NCName">
+              <xs:annotation>
+                <xs:documentation>format of all streams in playlist, e.g. mp3, aac or aacp </xs:documentation>
+              </xs:annotation>
+            </xs:attribute>
+          </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="slowpls">
+      <xs:annotation>
+        <xs:documentation>URI to playlist in PLS format containing low quality streams, playlist starts with main stream which is followed by graceful degradation backup streams, e.g. http://somafm.com/u80s56.pls with mp3 as format and http://somafm.com/u80s32.pls with aacp as format</xs:documentation>
+      </xs:annotation>
+    <xs:complexType>
+        <xs:simpleContent>
+          <xs:extension base="xs:anyURI">
+            <xs:attribute name="format" use="required" type="xs:NCName">
+              <xs:annotation>
+                <xs:documentation>format of all streams in playlist, e.g. mp3, aac or aacp </xs:documentation>
+              </xs:annotation>
+            </xs:attribute>
+          </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="listeners" type="xs:integer">
+    <xs:annotation>
+      <xs:documentation>the number of listeners at the moment this file was generated, e.g. 0</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="lastPlaying" type="xs:string"/>
+</xs:schema>
