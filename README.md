@@ -1,6 +1,6 @@
 # online-radio-channels
 
-This project offers schemata for XML and JSON to describe channels for online radio stations. Note that the formats differ slightly. However, using these formats enables radio stations to automatically broadcast which channels and playlists in different formats an qualities they are offer. At the same time descriptions, artwork and metadata on last playing and number of listerers is being made available.
+This project offers schema for XML and JSON to describe channels for online radio stations. Note that the formats differ slightly. However, using these formats enables radio stations to automatically broadcast which channels and playlists in different formats an qualities they are offer. At the same time descriptions, artwork and metadata on last playing and number of listerers is being made available.
 
 With approval from [SomaFM](https://somafm.com), these schemas have been derived and fine tuned according to existing XML and JSON data that they already have in use. Examples are [https://api.somafm.com/channels.xml](https://api.somafm.com/channels.xml) and [https://api.somafm.com/channels.json](https://api.somafm.com/channels.json) respectively.
 
