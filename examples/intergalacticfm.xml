@@ -1,82 +1,66 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<channels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="channels.xsd">
-  <channel id="IFM1">
-    <title><![CDATA[Murdercapital FM]]></title>
-    <description><![CDATA[Electro and such]]></description>
+<channels xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="channels.xsd">
+  <channel id="ifm1">
+    <title><![CDATA[Intergalactic FM Main]]></title>
+    <description><![CDATA[We're Friends!]]></description>
     <dj><![CDATA[]]></dj>
     <djmail><![CDATA[]]></djmail>
     <genre></genre>
-    <image>https://intergalacticfm.com/images/covers/ifm1.png</image>
-    <largeimage>https://intergalacticfm.com/images/covers/ifm1.png</largeimage>
-    <xlimage>https://intergalacticfm.com/images/covers/ifm1.png</xlimage>
+    <image>https://intergalacticfm.com/images/ifm1-120.png</image>
+    <largeimage>https://intergalacticfm.com/images/ifm1-256.png</largeimage>
+    <xlimage>https://intergalacticfm.com/images/ifm1-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
     <updated>1445379368</updated>
-    <highestpls format="mp3">http://intergalacticfm.com/1-mp3-128k.pls</highestpls>
-    <highestpls format="aacp">http://intergalacticfm.com/1-aacp-128k.pls</highestpls>
+    <highestpls format="mp3">https://intergalacticfm.com/ifm1-128mp3.pls</highestpls>
+    <highestpls format="aacp">https://intergalacticfm.com/ifm1-128aacp.pls</highestpls>
     <listeners>66</listeners>
     <lastPlaying>JACKY BEAVERS - Mr. Bump Man | Theo Parrish Ugly Edits 11 | Ugly Edits UGET 11 | US | 2010</lastPlaying>
   </channel>
-  <channel id="IFM2">
-    <title><![CDATA[Intergalactic Classix]]></title>
+  <channel id="ifm2">
+    <title><![CDATA[Intergalactic FM Classix]]></title>
     <description><![CDATA[Italo, Disco and Oldschool]]></description>
     <dj><![CDATA[]]></dj>
     <djmail><![CDATA[]]></djmail>
     <genre></genre>
-    <image>https://intergalacticfm.com/images/covers/ifm2.png</image>
-    <largeimage>https://intergalacticfm.com/images/covers/ifm2.png</largeimage>
-    <xlimage>https://intergalacticfm.com/images/covers/ifm2.png</xlimage>
+    <image>https://intergalacticfm.com/images/ifm2-120.png</image>
+    <largeimage>https://intergalacticfm.com/images/ifm2-256.png</largeimage>
+    <xlimage>https://intergalacticfm.com/images/ifm2-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
     <updated>1445379368</updated>
-    <highestpls format="mp3">http://intergalacticfm.com/2-mp3-128k.pls</highestpls>
-    <highestpls format="aacp">http://intergalacticfm.com/2-aacp-128k.pls</highestpls>
+    <highestpls format="mp3">https://intergalacticfm.com/ifm2-128mp3.pls</highestpls>
+    <highestpls format="aacp">https://intergalacticfm.com/ifm2-128aacp.pls</highestpls>
     <listeners>126</listeners>
     <lastPlaying>FRONT PAGE FEAT. SHARON REDD - Love Insurance | 12'' | Panorama Records YD-11677 | US | 1979</lastPlaying>
   </channel>
-  <channel id="IFM3">
-    <title><![CDATA[ABC (Alien Broadcasting Conspiracy)]]></title>
-    <description><![CDATA[Eins zwo drei uno dos tres]]></description>
-    <dj><![CDATA[]]></dj>
-    <djmail><![CDATA[]]></djmail>
-    <genre></genre>
-    <image>https://intergalacticfm.com/images/ABC100.png</image>
-    <largeimage>https://intergalacticfm.com/images/ABC100.png</largeimage>
-    <xlimage>https://intergalacticfm.com/images/ABC100.png</xlimage>
-    <twitter>IntergalacticFM</twitter>
-    <updated>1445379368</updated>
-    <highestpls format="mp3">http://intergalacticfm.com/3-mp3-128k.pls</highestpls>
-    <highestpls format="aacp">http://intergalacticfm.com/3-aacp-128k.pls</highestpls>
-    <listeners>188</listeners>
-    <lastPlaying>MEKANIK KOMMANDO - Pain In Eden | Snake Is Queen | Wereld Rekord 1A 068-26891 | NL | 1982</lastPlaying>
-  </channel>
-  <channel id="IFM4">
-    <title><![CDATA[The Dream Machine]]></title>
+  <channel id="ifm4">
+    <title><![CDATA[Intergalactic FM Dream Machine]]></title>
     <description><![CDATA[Soundtracks & Exotica]]></description>
     <dj><![CDATA[]]></dj>
     <djmail><![CDATA[]]></djmail>
     <genre></genre>
-    <image>https://intergalacticfm.com/images/covers/ifm4.png</image>
-    <largeimage>https://intergalacticfm.com/images/covers/ifm4.png</largeimage>
-    <xlimage>https://intergalacticfm.com/images/covers/ifm4.png</xlimage>
+    <image>https://intergalacticfm.com/images/ifm4-120.png</image>
+    <largeimage>https://intergalacticfm.com/images/ifm4-256.png</largeimage>
+    <xlimage>https://intergalacticfm.com/images/ifm4-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
     <updated>1445379368</updated>
-    <highestpls format="mp3">http://intergalacticfm.com/4-mp3-128k.pls</highestpls>
-    <highestpls format="aacp">http://intergalacticfm.com/4-aacp-128k.pls</highestpls>
+    <highestpls format="mp3">https://intergalacticfm.com/ifm4-128mp3.pls</highestpls>
+    <highestpls format="aacp">https://intergalacticfm.com/ifm4-128aacp.pls</highestpls>
     <listeners>152</listeners>
     <lastPlaying>TEHO TEARDO - Non Ho Vizi Minori | Il Divo OST | Universal Music 5309448 | IT | 2008</lastPlaying>
   </channel>
-  <channel id="IFM5">
-    <title><![CDATA[The Garden]]></title>
+  <channel id="ifm5">
+    <title><![CDATA[Intergalactic FM The Garden]]></title>
     <description><![CDATA[Space & Ambient]]></description>
     <dj><![CDATA[]]></dj>
     <djmail><![CDATA[]]></djmail>
     <genre></genre>
-    <image>https://intergalacticfm.com/images/covers/ifm5.png</image>
-    <largeimage>https://intergalacticfm.com/images/covers/ifm5.png</largeimage>
-    <xlimage>https://intergalacticfm.com/images/covers/ifm5.png</xlimage>
+    <image>https://intergalacticfm.com/images/ifm5-120.png</image>
+    <largeimage>https://intergalacticfm.com/images/ifm5-256.png</largeimage>
+    <xlimage>https://intergalacticfm.com/images/ifm5-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
     <updated>1445379368</updated>
-    <highestpls format="mp3">http://intergalacticfm.com/5-mp3-128k.pls</highestpls>
-    <highestpls format="aacp">http://intergalacticfm.com/5-aacp-128k.pls</highestpls>
+    <highestpls format="mp3">https://intergalacticfm.com/ifm5-128mp3.pls</highestpls>
+    <highestpls format="aacp">https://intergalacticfm.com/ifm5-128aacp.pls</highestpls>
     <listeners>44</listeners>
     <lastPlaying>BRIAN ENO - Castro Haze | Headcandy | BMG 76896-40067-2 | US | 1994</lastPlaying>
   </channel>
