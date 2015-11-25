@@ -10,11 +10,11 @@
     <largeimage>https://intergalacticfm.com/images/ifm1-256.png</largeimage>
     <xlimage>https://intergalacticfm.com/images/ifm1-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
-    <updated>1445379368</updated>
+    <updated>1448463269</updated>
     <highestpls format="mp3">https://intergalacticfm.com/ifm1-128mp3.pls</highestpls>
-    <highestpls format="aacp">https://intergalacticfm.com/ifm1-128aacp.pls</highestpls>
-    <listeners>66</listeners>
-    <lastPlaying>JACKY BEAVERS - Mr. Bump Man | Theo Parrish Ugly Edits 11 | Ugly Edits UGET 11 | US | 2010</lastPlaying>
+    <highestpls format="aac">https://intergalacticfm.com/ifm1-128aac.pls</highestpls>
+    <listeners></listeners>
+    <lastPlaying></lastPlaying>
   </channel>
   <channel id="ifm2">
     <title><![CDATA[Intergalactic FM Classix]]></title>
@@ -26,11 +26,11 @@
     <largeimage>https://intergalacticfm.com/images/ifm2-256.png</largeimage>
     <xlimage>https://intergalacticfm.com/images/ifm2-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
-    <updated>1445379368</updated>
+    <updated>1448463269</updated>
     <highestpls format="mp3">https://intergalacticfm.com/ifm2-128mp3.pls</highestpls>
-    <highestpls format="aacp">https://intergalacticfm.com/ifm2-128aacp.pls</highestpls>
-    <listeners>126</listeners>
-    <lastPlaying>FRONT PAGE FEAT. SHARON REDD - Love Insurance | 12'' | Panorama Records YD-11677 | US | 1979</lastPlaying>
+    <highestpls format="aac">https://intergalacticfm.com/ifm2-128aac.pls</highestpls>
+    <listeners></listeners>
+    <lastPlaying></lastPlaying>
   </channel>
   <channel id="ifm4">
     <title><![CDATA[Intergalactic FM Dream Machine]]></title>
@@ -42,11 +42,11 @@
     <largeimage>https://intergalacticfm.com/images/ifm4-256.png</largeimage>
     <xlimage>https://intergalacticfm.com/images/ifm4-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
-    <updated>1445379368</updated>
+    <updated>1448463269</updated>
     <highestpls format="mp3">https://intergalacticfm.com/ifm4-128mp3.pls</highestpls>
-    <highestpls format="aacp">https://intergalacticfm.com/ifm4-128aacp.pls</highestpls>
-    <listeners>152</listeners>
-    <lastPlaying>TEHO TEARDO - Non Ho Vizi Minori | Il Divo OST | Universal Music 5309448 | IT | 2008</lastPlaying>
+    <highestpls format="aac">https://intergalacticfm.com/ifm4-128aac.pls</highestpls>
+    <listeners></listeners>
+    <lastPlaying></lastPlaying>
   </channel>
   <channel id="ifm5">
     <title><![CDATA[Intergalactic FM The Garden]]></title>
@@ -58,10 +58,9 @@
     <largeimage>https://intergalacticfm.com/images/ifm5-256.png</largeimage>
     <xlimage>https://intergalacticfm.com/images/ifm5-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
-    <updated>1445379368</updated>
+    <updated>1448463269</updated>
     <highestpls format="mp3">https://intergalacticfm.com/ifm5-128mp3.pls</highestpls>
-    <highestpls format="aacp">https://intergalacticfm.com/ifm5-128aacp.pls</highestpls>
-    <listeners>44</listeners>
-    <lastPlaying>BRIAN ENO - Castro Haze | Headcandy | BMG 76896-40067-2 | US | 1994</lastPlaying>
+    <listeners></listeners>
+    <lastPlaying></lastPlaying>
   </channel>
   </channels>
