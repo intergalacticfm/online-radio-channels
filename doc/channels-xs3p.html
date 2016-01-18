@@ -368,9 +368,9 @@ div#legend div.hint {
     <script type="text/javascript">
 <!--
 /* IDs of XML Instance Representation boxes */
-var xiBoxes = new Array('element_channels_xibox', 'element_channel_xibox', 'element_title_xibox', 'element_description_xibox', 'element_dj_xibox', 'element_djmail_xibox', 'element_genre_xibox', 'element_image_xibox', 'element_largeimage_xibox', 'element_xlimage_xibox', 'element_twitter_xibox', 'element_updated_xibox', 'element_fastpls_xibox', 'element_highestpls_xibox', 'element_slowpls_xibox', 'element_listeners_xibox', 'element_lastPlaying_xibox');
+var xiBoxes = new Array('element_channels_xibox', 'element_channel_xibox', 'element_title_xibox', 'element_description_xibox', 'element_dj_xibox', 'element_djmail_xibox', 'element_genre_xibox', 'element_image_xibox', 'element_largeimage_xibox', 'element_xlimage_xibox', 'element_twitter_xibox', 'element_updated_xibox', 'element_fastpls_xibox', 'element_highestpls_xibox', 'element_slowpls_xibox', 'element_listeners_xibox', 'element_lastPlaying_xibox', 'element_lastPlayingImage_xibox', 'element_lastPlayingArtist_xibox', 'element_lastPlayingAlbum_xibox', 'element_lastPlayingTrack_xibox', 'element_lastPlayingLabel_xibox', 'element_lastPlayingCountry_xibox', 'element_lastPlayingYear_xibox');
 /* IDs of Schema Component Representation boxes */
-var scBoxes = new Array('schema_scbox', 'element_channels_scbox', 'element_channel_scbox', 'element_title_scbox', 'element_description_scbox', 'element_dj_scbox', 'element_djmail_scbox', 'element_genre_scbox', 'element_image_scbox', 'element_largeimage_scbox', 'element_xlimage_scbox', 'element_twitter_scbox', 'element_updated_scbox', 'element_fastpls_scbox', 'element_highestpls_scbox', 'element_slowpls_scbox', 'element_listeners_scbox', 'element_lastPlaying_scbox');
+var scBoxes = new Array('schema_scbox', 'element_channels_scbox', 'element_channel_scbox', 'element_title_scbox', 'element_description_scbox', 'element_dj_scbox', 'element_djmail_scbox', 'element_genre_scbox', 'element_image_scbox', 'element_largeimage_scbox', 'element_xlimage_scbox', 'element_twitter_scbox', 'element_updated_scbox', 'element_fastpls_scbox', 'element_highestpls_scbox', 'element_slowpls_scbox', 'element_listeners_scbox', 'element_lastPlaying_scbox', 'element_lastPlayingImage_scbox', 'element_lastPlayingArtist_scbox', 'element_lastPlayingAlbum_scbox', 'element_lastPlayingTrack_scbox', 'element_lastPlayingLabel_scbox', 'element_lastPlayingCountry_scbox', 'element_lastPlayingYear_scbox');
 
 /**
  * Can get the ID of the button controlling
@@ -750,6 +750,27 @@ if (gc != null) {
             <a href="#element_lastPlaying">Element: <strong>lastPlaying</strong></a>
           </li>
           <li>
+            <a href="#element_lastPlayingAlbum">Element: <strong>lastPlayingAlbum</strong></a>
+          </li>
+          <li>
+            <a href="#element_lastPlayingArtist">Element: <strong>lastPlayingArtist</strong></a>
+          </li>
+          <li>
+            <a href="#element_lastPlayingCountry">Element: <strong>lastPlayingCountry</strong></a>
+          </li>
+          <li>
+            <a href="#element_lastPlayingImage">Element: <strong>lastPlayingImage</strong></a>
+          </li>
+          <li>
+            <a href="#element_lastPlayingLabel">Element: <strong>lastPlayingLabel</strong></a>
+          </li>
+          <li>
+            <a href="#element_lastPlayingTrack">Element: <strong>lastPlayingTrack</strong></a>
+          </li>
+          <li>
+            <a href="#element_lastPlayingYear">Element: <strong>lastPlayingYear</strong></a>
+          </li>
+          <li>
             <a href="#element_listeners">Element: <strong>listeners</strong></a>
           </li>
           <li>
@@ -866,7 +887,7 @@ setState('schema_scbox', false);
       </tr>
       <tr>
         <th>Documentation</th>
-        <td>channel with descriptions, artwork, streams in different formats and qualities and metadata on playing now and number of listeners</td>
+        <td>unique channel with descriptions, artwork, streams in different formats and qualities and metadata on last playing and number of listeners</td>
       </tr>
     </table>
     <div class="sample box">
@@ -919,7 +940,7 @@ setState('element_channel_scbox', false);
       </tr>
       <tr>
         <th>Documentation</th>
-        <td>unique channels of an online radio station</td>
+        <td>channels of an online radio station</td>
       </tr>
     </table>
     <div class="sample box">
@@ -974,7 +995,7 @@ setState('element_channels_scbox', false);
       </tr>
       <tr>
         <th>Documentation</th>
-        <td>description or subtitle of the channel, possibly in CDATA, e.g. Every day Eighties music for all to enjoy</td>
+        <td>description or subtitle of the channel, preferably in CDATA, e.g. Every day Eighties music for all to enjoy or Every day Eighties music for all to enoy</td>
       </tr>
     </table>
     <div class="sample box">
@@ -1029,7 +1050,7 @@ setState('element_description_scbox', false);
       </tr>
       <tr>
         <th>Documentation</th>
-        <td>name of the DJ, possibly in CDATA, e.g. John Smith</td>
+        <td>name of the DJ, preferably in CDATA, e.g. John Smith or John Smith</td>
       </tr>
     </table>
     <div class="sample box">
@@ -1084,7 +1105,7 @@ setState('element_dj_scbox', false);
       </tr>
       <tr>
         <th>Documentation</th>
-        <td>email addres of the DJ in all lower case, possibly in CDATA, e.g. john.smith@station.radio</td>
+        <td>email addres of the DJ in all lower case, preferably in CDATA, e.g. john.smith@station.radio or john.smith@station.radio</td>
       </tr>
     </table>
     <div class="sample box">
@@ -1408,6 +1429,10 @@ setState('element_largeimage_scbox', false);
         </th>
         <td>no</td>
       </tr>
+      <tr>
+        <th>Documentation</th>
+        <td>last playing information, preferably in CDATA, e.g. Artist - Album - Track Title or Artist - Album - Track Title</td>
+      </tr>
     </table>
     <div class="sample box">
       <div><input type="button" id="element_lastPlaying_xibox_button" class="control" onclick="switchState('element_lastPlaying_xibox'); return false;" style="display: none" /> <span class="caption">XML Instance Representation</span></div>
@@ -1428,6 +1453,391 @@ setState('element_lastPlaying_xibox', true);
       <script type="text/javascript">
 <!--
 setState('element_lastPlaying_scbox', false);
+// -->
+</script>
+    </div>
+    <div style="text-align: right; clear: both;">
+      <a href="#top">top</a>
+    </div>
+    <hr />
+    <h3>Element: <a name="element_lastPlayingAlbum" class="name" id="element_lastPlayingAlbum">lastPlayingAlbum</a></h3>
+    <table class="properties">
+      <tr>
+        <th>Name</th>
+        <td>lastPlayingAlbum</td>
+      </tr>
+      <tr>
+        <th>Type</th>
+        <td>
+          <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <a title="Look up 'Nillable' in glossary" href="#term_Nillable">Nillable</a>
+        </th>
+        <td>no</td>
+      </tr>
+      <tr>
+        <th>
+          <a title="Look up 'Abstract' in glossary" href="#term_Abstract">Abstract</a>
+        </th>
+        <td>no</td>
+      </tr>
+      <tr>
+        <th>Documentation</th>
+        <td>last playing information name of the album, preferably in CDATA, e.g. Album or Album</td>
+      </tr>
+    </table>
+    <div class="sample box">
+      <div><input type="button" id="element_lastPlayingAlbum_xibox_button" class="control" onclick="switchState('element_lastPlayingAlbum_xibox'); return false;" style="display: none" /> <span class="caption">XML Instance Representation</span></div>
+      <div id="element_lastPlayingAlbum_xibox" class="contents">
+        <div style="margin-left: 0em">&lt;lastPlayingAlbum&gt; <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span> &lt;/lastPlayingAlbum&gt;</div>
+      </div>
+      <script type="text/javascript">
+<!--
+setState('element_lastPlayingAlbum_xibox', true);
+// -->
+</script>
+    </div>
+    <div class="schemaComponent box">
+      <div><input type="button" id="element_lastPlayingAlbum_scbox_button" class="control" onclick="switchState('element_lastPlayingAlbum_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span></div>
+      <div id="element_lastPlayingAlbum_scbox" class="contents">
+        <div style="margin-left: 0em">&lt;<span class="scTag">xs:element</span> <span class="scTag">name</span>="<span class="scContent">lastPlayingAlbum</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span></span>"/&gt;</div>
+      </div>
+      <script type="text/javascript">
+<!--
+setState('element_lastPlayingAlbum_scbox', false);
+// -->
+</script>
+    </div>
+    <div style="text-align: right; clear: both;">
+      <a href="#top">top</a>
+    </div>
+    <hr />
+    <h3>Element: <a name="element_lastPlayingArtist" class="name" id="element_lastPlayingArtist">lastPlayingArtist</a></h3>
+    <table class="properties">
+      <tr>
+        <th>Name</th>
+        <td>lastPlayingArtist</td>
+      </tr>
+      <tr>
+        <th>Type</th>
+        <td>
+          <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <a title="Look up 'Nillable' in glossary" href="#term_Nillable">Nillable</a>
+        </th>
+        <td>no</td>
+      </tr>
+      <tr>
+        <th>
+          <a title="Look up 'Abstract' in glossary" href="#term_Abstract">Abstract</a>
+        </th>
+        <td>no</td>
+      </tr>
+      <tr>
+        <th>Documentation</th>
+        <td>last playing information name of the artist, preferably in CDATA, e.g. Artist or Artist</td>
+      </tr>
+    </table>
+    <div class="sample box">
+      <div><input type="button" id="element_lastPlayingArtist_xibox_button" class="control" onclick="switchState('element_lastPlayingArtist_xibox'); return false;" style="display: none" /> <span class="caption">XML Instance Representation</span></div>
+      <div id="element_lastPlayingArtist_xibox" class="contents">
+        <div style="margin-left: 0em">&lt;lastPlayingArtist&gt; <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span> &lt;/lastPlayingArtist&gt;</div>
+      </div>
+      <script type="text/javascript">
+<!--
+setState('element_lastPlayingArtist_xibox', true);
+// -->
+</script>
+    </div>
+    <div class="schemaComponent box">
+      <div><input type="button" id="element_lastPlayingArtist_scbox_button" class="control" onclick="switchState('element_lastPlayingArtist_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span></div>
+      <div id="element_lastPlayingArtist_scbox" class="contents">
+        <div style="margin-left: 0em">&lt;<span class="scTag">xs:element</span> <span class="scTag">name</span>="<span class="scContent">lastPlayingArtist</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span></span>"/&gt;</div>
+      </div>
+      <script type="text/javascript">
+<!--
+setState('element_lastPlayingArtist_scbox', false);
+// -->
+</script>
+    </div>
+    <div style="text-align: right; clear: both;">
+      <a href="#top">top</a>
+    </div>
+    <hr />
+    <h3>Element: <a name="element_lastPlayingCountry" class="name" id="element_lastPlayingCountry">lastPlayingCountry</a></h3>
+    <table class="properties">
+      <tr>
+        <th>Name</th>
+        <td>lastPlayingCountry</td>
+      </tr>
+      <tr>
+        <th>Type</th>
+        <td>
+          <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <a title="Look up 'Nillable' in glossary" href="#term_Nillable">Nillable</a>
+        </th>
+        <td>no</td>
+      </tr>
+      <tr>
+        <th>
+          <a title="Look up 'Abstract' in glossary" href="#term_Abstract">Abstract</a>
+        </th>
+        <td>no</td>
+      </tr>
+      <tr>
+        <th>Documentation</th>
+        <td>last playing information country code, e.g. US</td>
+      </tr>
+    </table>
+    <div class="sample box">
+      <div><input type="button" id="element_lastPlayingCountry_xibox_button" class="control" onclick="switchState('element_lastPlayingCountry_xibox'); return false;" style="display: none" /> <span class="caption">XML Instance Representation</span></div>
+      <div id="element_lastPlayingCountry_xibox" class="contents">
+        <div style="margin-left: 0em">&lt;lastPlayingCountry&gt; <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span> &lt;/lastPlayingCountry&gt;</div>
+      </div>
+      <script type="text/javascript">
+<!--
+setState('element_lastPlayingCountry_xibox', true);
+// -->
+</script>
+    </div>
+    <div class="schemaComponent box">
+      <div><input type="button" id="element_lastPlayingCountry_scbox_button" class="control" onclick="switchState('element_lastPlayingCountry_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span></div>
+      <div id="element_lastPlayingCountry_scbox" class="contents">
+        <div style="margin-left: 0em">&lt;<span class="scTag">xs:element</span> <span class="scTag">name</span>="<span class="scContent">lastPlayingCountry</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span></span>"/&gt;</div>
+      </div>
+      <script type="text/javascript">
+<!--
+setState('element_lastPlayingCountry_scbox', false);
+// -->
+</script>
+    </div>
+    <div style="text-align: right; clear: both;">
+      <a href="#top">top</a>
+    </div>
+    <hr />
+    <h3>Element: <a name="element_lastPlayingImage" class="name" id="element_lastPlayingImage">lastPlayingImage</a></h3>
+    <table class="properties">
+      <tr>
+        <th>Name</th>
+        <td>lastPlayingImage</td>
+      </tr>
+      <tr>
+        <th>Type</th>
+        <td>
+          <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:anyURI</span>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <a title="Look up 'Nillable' in glossary" href="#term_Nillable">Nillable</a>
+        </th>
+        <td>no</td>
+      </tr>
+      <tr>
+        <th>
+          <a title="Look up 'Abstract' in glossary" href="#term_Abstract">Abstract</a>
+        </th>
+        <td>no</td>
+      </tr>
+      <tr>
+        <th>Documentation</th>
+        <td>last playing information image URI, e.g. https://intergalacticfm.com/images/covers/thumbs/IFMradio.png</td>
+      </tr>
+    </table>
+    <div class="sample box">
+      <div><input type="button" id="element_lastPlayingImage_xibox_button" class="control" onclick="switchState('element_lastPlayingImage_xibox'); return false;" style="display: none" /> <span class="caption">XML Instance Representation</span></div>
+      <div id="element_lastPlayingImage_xibox" class="contents">
+        <div style="margin-left: 0em">&lt;lastPlayingImage&gt; <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:anyURI</span> &lt;/lastPlayingImage&gt;</div>
+      </div>
+      <script type="text/javascript">
+<!--
+setState('element_lastPlayingImage_xibox', true);
+// -->
+</script>
+    </div>
+    <div class="schemaComponent box">
+      <div><input type="button" id="element_lastPlayingImage_scbox_button" class="control" onclick="switchState('element_lastPlayingImage_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span></div>
+      <div id="element_lastPlayingImage_scbox" class="contents">
+        <div style="margin-left: 0em">&lt;<span class="scTag">xs:element</span> <span class="scTag">name</span>="<span class="scContent">lastPlayingImage</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:anyURI</span></span>"/&gt;</div>
+      </div>
+      <script type="text/javascript">
+<!--
+setState('element_lastPlayingImage_scbox', false);
+// -->
+</script>
+    </div>
+    <div style="text-align: right; clear: both;">
+      <a href="#top">top</a>
+    </div>
+    <hr />
+    <h3>Element: <a name="element_lastPlayingLabel" class="name" id="element_lastPlayingLabel">lastPlayingLabel</a></h3>
+    <table class="properties">
+      <tr>
+        <th>Name</th>
+        <td>lastPlayingLabel</td>
+      </tr>
+      <tr>
+        <th>Type</th>
+        <td>
+          <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <a title="Look up 'Nillable' in glossary" href="#term_Nillable">Nillable</a>
+        </th>
+        <td>no</td>
+      </tr>
+      <tr>
+        <th>
+          <a title="Look up 'Abstract' in glossary" href="#term_Abstract">Abstract</a>
+        </th>
+        <td>no</td>
+      </tr>
+      <tr>
+        <th>Documentation</th>
+        <td>last playing information label, preferably in CDATA, e.g. Viewlexx or Viewlexx</td>
+      </tr>
+    </table>
+    <div class="sample box">
+      <div><input type="button" id="element_lastPlayingLabel_xibox_button" class="control" onclick="switchState('element_lastPlayingLabel_xibox'); return false;" style="display: none" /> <span class="caption">XML Instance Representation</span></div>
+      <div id="element_lastPlayingLabel_xibox" class="contents">
+        <div style="margin-left: 0em">&lt;lastPlayingLabel&gt; <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span> &lt;/lastPlayingLabel&gt;</div>
+      </div>
+      <script type="text/javascript">
+<!--
+setState('element_lastPlayingLabel_xibox', true);
+// -->
+</script>
+    </div>
+    <div class="schemaComponent box">
+      <div><input type="button" id="element_lastPlayingLabel_scbox_button" class="control" onclick="switchState('element_lastPlayingLabel_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span></div>
+      <div id="element_lastPlayingLabel_scbox" class="contents">
+        <div style="margin-left: 0em">&lt;<span class="scTag">xs:element</span> <span class="scTag">name</span>="<span class="scContent">lastPlayingLabel</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span></span>"/&gt;</div>
+      </div>
+      <script type="text/javascript">
+<!--
+setState('element_lastPlayingLabel_scbox', false);
+// -->
+</script>
+    </div>
+    <div style="text-align: right; clear: both;">
+      <a href="#top">top</a>
+    </div>
+    <hr />
+    <h3>Element: <a name="element_lastPlayingTrack" class="name" id="element_lastPlayingTrack">lastPlayingTrack</a></h3>
+    <table class="properties">
+      <tr>
+        <th>Name</th>
+        <td>lastPlayingTrack</td>
+      </tr>
+      <tr>
+        <th>Type</th>
+        <td>
+          <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <a title="Look up 'Nillable' in glossary" href="#term_Nillable">Nillable</a>
+        </th>
+        <td>no</td>
+      </tr>
+      <tr>
+        <th>
+          <a title="Look up 'Abstract' in glossary" href="#term_Abstract">Abstract</a>
+        </th>
+        <td>no</td>
+      </tr>
+      <tr>
+        <th>Documentation</th>
+        <td>last playing information title of the track, preferably in CDATA, e.g. Track Title or Track Title</td>
+      </tr>
+    </table>
+    <div class="sample box">
+      <div><input type="button" id="element_lastPlayingTrack_xibox_button" class="control" onclick="switchState('element_lastPlayingTrack_xibox'); return false;" style="display: none" /> <span class="caption">XML Instance Representation</span></div>
+      <div id="element_lastPlayingTrack_xibox" class="contents">
+        <div style="margin-left: 0em">&lt;lastPlayingTrack&gt; <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span> &lt;/lastPlayingTrack&gt;</div>
+      </div>
+      <script type="text/javascript">
+<!--
+setState('element_lastPlayingTrack_xibox', true);
+// -->
+</script>
+    </div>
+    <div class="schemaComponent box">
+      <div><input type="button" id="element_lastPlayingTrack_scbox_button" class="control" onclick="switchState('element_lastPlayingTrack_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span></div>
+      <div id="element_lastPlayingTrack_scbox" class="contents">
+        <div style="margin-left: 0em">&lt;<span class="scTag">xs:element</span> <span class="scTag">name</span>="<span class="scContent">lastPlayingTrack</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span></span>"/&gt;</div>
+      </div>
+      <script type="text/javascript">
+<!--
+setState('element_lastPlayingTrack_scbox', false);
+// -->
+</script>
+    </div>
+    <div style="text-align: right; clear: both;">
+      <a href="#top">top</a>
+    </div>
+    <hr />
+    <h3>Element: <a name="element_lastPlayingYear" class="name" id="element_lastPlayingYear">lastPlayingYear</a></h3>
+    <table class="properties">
+      <tr>
+        <th>Name</th>
+        <td>lastPlayingYear</td>
+      </tr>
+      <tr>
+        <th>Type</th>
+        <td>
+          <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:integer</span>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <a title="Look up 'Nillable' in glossary" href="#term_Nillable">Nillable</a>
+        </th>
+        <td>no</td>
+      </tr>
+      <tr>
+        <th>
+          <a title="Look up 'Abstract' in glossary" href="#term_Abstract">Abstract</a>
+        </th>
+        <td>no</td>
+      </tr>
+      <tr>
+        <th>Documentation</th>
+        <td>last playing information year of the track or album, e.g. 1997</td>
+      </tr>
+    </table>
+    <div class="sample box">
+      <div><input type="button" id="element_lastPlayingYear_xibox_button" class="control" onclick="switchState('element_lastPlayingYear_xibox'); return false;" style="display: none" /> <span class="caption">XML Instance Representation</span></div>
+      <div id="element_lastPlayingYear_xibox" class="contents">
+        <div style="margin-left: 0em">&lt;lastPlayingYear&gt; <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:integer</span> &lt;/lastPlayingYear&gt;</div>
+      </div>
+      <script type="text/javascript">
+<!--
+setState('element_lastPlayingYear_xibox', true);
+// -->
+</script>
+    </div>
+    <div class="schemaComponent box">
+      <div><input type="button" id="element_lastPlayingYear_scbox_button" class="control" onclick="switchState('element_lastPlayingYear_scbox'); return false;" style="display: none" /> <span class="caption">Schema Component Representation</span></div>
+      <div id="element_lastPlayingYear_scbox" class="contents">
+        <div style="margin-left: 0em">&lt;<span class="scTag">xs:element</span> <span class="scTag">name</span>="<span class="scContent">lastPlayingYear</span>" <span class="scTag">type</span>="<span class="scContent"><span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:integer</span></span>"/&gt;</div>
+      </div>
+      <script type="text/javascript">
+<!--
+setState('element_lastPlayingYear_scbox', false);
 // -->
 </script>
     </div>
@@ -1461,7 +1871,7 @@ setState('element_lastPlaying_scbox', false);
       </tr>
       <tr>
         <th>Documentation</th>
-        <td>the number of listeners at the moment this file was generated, e.g. 0</td>
+        <td>number of listeners at the moment this file was generated, e.g. 0</td>
       </tr>
     </table>
     <div class="sample box">
@@ -1569,7 +1979,7 @@ setState('element_slowpls_scbox', false);
       </tr>
       <tr>
         <th>Documentation</th>
-        <td>name of the channel, possibly in CDATA, e.g. Best music of the Eighties</td>
+        <td>name of the channel, preferably in CDATA, e.g. Best music of the Eighties or Best music of the Eighties</td>
       </tr>
     </table>
     <div class="sample box">

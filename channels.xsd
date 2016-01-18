@@ -148,8 +148,44 @@
       <xs:documentation>number of listeners at the moment this file was generated, e.g. 0</xs:documentation>
     </xs:annotation>
   </xs:element>
-  <xs:element name="lastPlaying" type="xs:string"/>
+  <xs:element name="lastPlaying" type="xs:string">
     <xs:annotation>
-      <xs:documentation>last playing information, preferably in CDATA, e.g. <![CDATA[Artist - Track Title]]> or Artist - Track Title</xs:documentation>
+      <xs:documentation>last playing information, preferably in CDATA, e.g. <![CDATA[Artist - Album - Track Title]]> or Artist - Album - Track Title</xs:documentation>
     </xs:annotation>
+  </xs:element>
+  <xs:element name="lastPlayingImage" type="xs:anyURI">
+    <xs:annotation>
+      <xs:documentation>last playing information image URI, e.g. https://intergalacticfm.com/images/covers/thumbs/IFMradio.png</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="lastPlayingArtist" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>last playing information name of the artist, preferably in CDATA, e.g. <![CDATA[Artist]]> or Artist</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="lastPlayingAlbum" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>last playing information name of the album, preferably in CDATA, e.g. <![CDATA[Album]]> or Album</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="lastPlayingTrack" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>last playing information title of the track, preferably in CDATA, e.g. <![CDATA[Track Title]]> or Track Title</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="lastPlayingLabel" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>last playing information label, preferably in CDATA, e.g. <![CDATA[Viewlexx]]> or Viewlexx</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="lastPlayingCountry" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>last playing information country code, e.g. US</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="lastPlayingYear" type="xs:integer">
+    <xs:annotation>
+      <xs:documentation>last playing information year of the track or album, e.g. 1997</xs:documentation>
+    </xs:annotation>
+  </xs:element>
 </xs:schema>

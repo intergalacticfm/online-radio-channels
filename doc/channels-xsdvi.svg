@@ -300,38 +300,60 @@ line, polyline, polygon {fill: none; stroke: black;}
 </g>
 
 <g id='_1_1' class='box' transform='translate(128,50)'>
+<rect class='shadow' x='3' y='3' width='129' height='46'/>
+<rect class='boxelement' x='0' y='0' width='129' height='46'
+onmouseover='makeVisible("_1_1")' onmouseout='makeHidden("_1_1")'/>
+<text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
+<text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
+<text class='strong' x='5' y='27'>lastPlayingTrack</text>
+<text class='visible' x='5' y='41'>type: string</text>
+<line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
+</g>
+
+<g id='_1_2' class='box' transform='translate(128,121)'>
+<rect class='shadow' x='3' y='3' width='141' height='46'/>
+<rect class='boxelement' x='0' y='0' width='141' height='46'
+onmouseover='makeVisible("_1_2")' onmouseout='makeHidden("_1_2")'/>
+<text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
+<text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
+<text class='strong' x='5' y='27'>lastPlayingCountry</text>
+<text class='visible' x='5' y='41'>type: string</text>
+<line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
+</g>
+
+<g id='_1_3' class='box' transform='translate(128,192)'>
 <rect class='shadow' x='3' y='3' width='81' height='46'/>
 <rect class='boxelement' x='0' y='0' width='81' height='46'
-onmouseover='makeVisible("_1_1")' onmouseout='makeHidden("_1_1")'/>
+onmouseover='makeVisible("_1_3")' onmouseout='makeHidden("_1_3")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>fastpls</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
-<use x='80' y='17' xlink:href='#minus' id='s_1_1' onclick='show("_1_1")'/>
+<use x='80' y='17' xlink:href='#minus' id='s_1_3' onclick='show("_1_3")'/>
 </g>
 
-<g id='_1_1_1' class='box' transform='translate(254,50)'>
+<g id='_1_3_1' class='box' transform='translate(254,192)'>
 <rect class='shadow' x='3' y='3' width='93' height='46' rx='9'/>
 <rect class='boxattribute1' x='0' y='0' width='93' height='46' rx='9'
-onmouseover='makeVisible("_1_1_1")' onmouseout='makeHidden("_1_1_1")'/>
+onmouseover='makeVisible("_1_3_1")' onmouseout='makeHidden("_1_3_1")'/>
 <text class='strong' x='5' y='27'><tspan class='big'>@</tspan> format</text>
 <text class='visible' x='5' y='41'>type: NCName</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>use: required</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_2' class='box' transform='translate(128,121)'>
+<g id='_1_4' class='box' transform='translate(128,263)'>
 <rect class='shadow' x='3' y='3' width='81' height='46'/>
 <rect class='boxelement' x='0' y='0' width='81' height='46'
-onmouseover='makeVisible("_1_2")' onmouseout='makeHidden("_1_2")'/>
+onmouseover='makeVisible("_1_4")' onmouseout='makeHidden("_1_4")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>channels</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
-<use x='80' y='17' xlink:href='#minus' id='s_1_2' onclick='show("_1_2")'/>
+<use x='80' y='17' xlink:href='#minus' id='s_1_4' onclick='show("_1_4")'/>
 </g>
 
-<g id='_1_2_1' class='box' transform='translate(254,121)'>
+<g id='_1_4_1' class='box' transform='translate(254,263)'>
 <rect class='boxcompositor' x='0' y='8' width='60' height='31' rx='9'/>
 <circle cx='42' cy='14' r='2'/>
 <circle cx='42' cy='23' r='2'/>
@@ -341,22 +363,22 @@ onmouseover='makeVisible("_1_2")' onmouseout='makeHidden("_1_2")'/>
 <text class='small' x='30' y='35'>3</text>
 <line x1='42' y1='14' x2='42' y2='32'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
-<use x='59' y='17' xlink:href='#minus' id='s_1_2_1' onclick='show("_1_2_1")'/>
+<use x='59' y='17' xlink:href='#minus' id='s_1_4_1' onclick='show("_1_4_1")'/>
 </g>
 
-<g id='_1_2_1_1' class='box' transform='translate(359,121)'>
+<g id='_1_4_1_1' class='box' transform='translate(359,263)'>
 <rect class='shadow' x='3' y='3' width='81' height='46'/>
 <rect class='boxelement' x='0' y='0' width='81' height='46'
-onmouseover='makeVisible("_1_2_1_1")' onmouseout='makeHidden("_1_2_1_1")'/>
+onmouseover='makeVisible("_1_4_1_1")' onmouseout='makeHidden("_1_4_1_1")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>channel</text>
 <text x='5' y='59'>0..∞</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
-<use x='80' y='17' xlink:href='#minus' id='s_1_2_1_1' onclick='show("_1_2_1_1")'/>
+<use x='80' y='17' xlink:href='#minus' id='s_1_4_1_1' onclick='show("_1_4_1_1")'/>
 </g>
 
-<g id='_1_2_1_1_1' class='box' transform='translate(485,121)'>
+<g id='_1_4_1_1_1' class='box' transform='translate(485,263)'>
 <rect class='boxcompositor' x='0' y='8' width='60' height='31' rx='9'/>
 <circle cx='42' cy='14' r='2'/>
 <circle cx='42' cy='23' r='2'/>
@@ -366,13 +388,13 @@ onmouseover='makeVisible("_1_2_1_1")' onmouseout='makeHidden("_1_2_1_1")'/>
 <text class='small' x='30' y='35'>3</text>
 <line x1='42' y1='14' x2='42' y2='32'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
-<use x='59' y='17' xlink:href='#minus' id='s_1_2_1_1_1' onclick='show("_1_2_1_1_1")'/>
+<use x='59' y='17' xlink:href='#minus' id='s_1_4_1_1_1' onclick='show("_1_4_1_1_1")'/>
 </g>
 
-<g id='_1_2_1_1_1_1' class='box' transform='translate(590,121)'>
+<g id='_1_4_1_1_1_1' class='box' transform='translate(590,263)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_2_1_1_1_1")' onmouseout='makeHidden("_1_2_1_1_1_1")'/>
+onmouseover='makeVisible("_1_4_1_1_1_1")' onmouseout='makeHidden("_1_4_1_1_1_1")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>title</text>
@@ -381,10 +403,10 @@ onmouseover='makeVisible("_1_2_1_1_1_1")' onmouseout='makeHidden("_1_2_1_1_1_1")
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_2_1_1_1_2' class='box' transform='translate(590,192)'>
+<g id='_1_4_1_1_1_2' class='box' transform='translate(590,334)'>
 <rect class='shadow' x='3' y='3' width='99' height='46'/>
 <rect class='boxelement' x='0' y='0' width='99' height='46'
-onmouseover='makeVisible("_1_2_1_1_1_2")' onmouseout='makeHidden("_1_2_1_1_1_2")'/>
+onmouseover='makeVisible("_1_4_1_1_1_2")' onmouseout='makeHidden("_1_4_1_1_1_2")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>description</text>
@@ -393,10 +415,10 @@ onmouseover='makeVisible("_1_2_1_1_1_2")' onmouseout='makeHidden("_1_2_1_1_1_2")
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_2_1_1_1_3' class='box' transform='translate(590,263)'>
+<g id='_1_4_1_1_1_3' class='box' transform='translate(590,405)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_2_1_1_1_3")' onmouseout='makeHidden("_1_2_1_1_1_3")'/>
+onmouseover='makeVisible("_1_4_1_1_1_3")' onmouseout='makeHidden("_1_4_1_1_1_3")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>dj</text>
@@ -405,10 +427,10 @@ onmouseover='makeVisible("_1_2_1_1_1_3")' onmouseout='makeHidden("_1_2_1_1_1_3")
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_2_1_1_1_4' class='box' transform='translate(590,334)'>
+<g id='_1_4_1_1_1_4' class='box' transform='translate(590,476)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_2_1_1_1_4")' onmouseout='makeHidden("_1_2_1_1_1_4")'/>
+onmouseover='makeVisible("_1_4_1_1_1_4")' onmouseout='makeHidden("_1_4_1_1_1_4")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>djmail</text>
@@ -417,10 +439,10 @@ onmouseover='makeVisible("_1_2_1_1_1_4")' onmouseout='makeHidden("_1_2_1_1_1_4")
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_2_1_1_1_5' class='box' transform='translate(590,405)'>
+<g id='_1_4_1_1_1_5' class='box' transform='translate(590,547)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_2_1_1_1_5")' onmouseout='makeHidden("_1_2_1_1_1_5")'/>
+onmouseover='makeVisible("_1_4_1_1_1_5")' onmouseout='makeHidden("_1_4_1_1_1_5")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>genre</text>
@@ -429,10 +451,10 @@ onmouseover='makeVisible("_1_2_1_1_1_5")' onmouseout='makeHidden("_1_2_1_1_1_5")
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_2_1_1_1_6' class='box' transform='translate(590,476)'>
+<g id='_1_4_1_1_1_6' class='box' transform='translate(590,618)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_2_1_1_1_6")' onmouseout='makeHidden("_1_2_1_1_1_6")'/>
+onmouseover='makeVisible("_1_4_1_1_1_6")' onmouseout='makeHidden("_1_4_1_1_1_6")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>image</text>
@@ -441,10 +463,10 @@ onmouseover='makeVisible("_1_2_1_1_1_6")' onmouseout='makeHidden("_1_2_1_1_1_6")
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_2_1_1_1_7' class='box' transform='translate(590,547)'>
+<g id='_1_4_1_1_1_7' class='box' transform='translate(590,689)'>
 <rect class='shadow' x='3' y='3' width='93' height='46'/>
 <rect class='boxelement' x='0' y='0' width='93' height='46'
-onmouseover='makeVisible("_1_2_1_1_1_7")' onmouseout='makeHidden("_1_2_1_1_1_7")'/>
+onmouseover='makeVisible("_1_4_1_1_1_7")' onmouseout='makeHidden("_1_4_1_1_1_7")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>largeimage</text>
@@ -453,10 +475,10 @@ onmouseover='makeVisible("_1_2_1_1_1_7")' onmouseout='makeHidden("_1_2_1_1_1_7")
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_2_1_1_1_8' class='box' transform='translate(590,618)'>
+<g id='_1_4_1_1_1_8' class='box' transform='translate(590,760)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_2_1_1_1_8")' onmouseout='makeHidden("_1_2_1_1_1_8")'/>
+onmouseover='makeVisible("_1_4_1_1_1_8")' onmouseout='makeHidden("_1_4_1_1_1_8")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>xlimage</text>
@@ -465,10 +487,10 @@ onmouseover='makeVisible("_1_2_1_1_1_8")' onmouseout='makeHidden("_1_2_1_1_1_8")
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_2_1_1_1_9' class='box' transform='translate(590,689)'>
+<g id='_1_4_1_1_1_9' class='box' transform='translate(590,831)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_2_1_1_1_9")' onmouseout='makeHidden("_1_2_1_1_1_9")'/>
+onmouseover='makeVisible("_1_4_1_1_1_9")' onmouseout='makeHidden("_1_4_1_1_1_9")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>twitter</text>
@@ -477,10 +499,10 @@ onmouseover='makeVisible("_1_2_1_1_1_9")' onmouseout='makeHidden("_1_2_1_1_1_9")
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_2_1_1_1_10' class='box' transform='translate(590,760)'>
+<g id='_1_4_1_1_1_10' class='box' transform='translate(590,902)'>
 <rect class='shadow' x='3' y='3' width='93' height='46'/>
 <rect class='boxelement' x='0' y='0' width='93' height='46'
-onmouseover='makeVisible("_1_2_1_1_1_10")' onmouseout='makeHidden("_1_2_1_1_1_10")'/>
+onmouseover='makeVisible("_1_4_1_1_1_10")' onmouseout='makeHidden("_1_4_1_1_1_10")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>updated</text>
@@ -489,7 +511,7 @@ onmouseover='makeVisible("_1_2_1_1_1_10")' onmouseout='makeHidden("_1_2_1_1_1_10
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_2_1_1_1_11' class='box' transform='translate(590,831)'>
+<g id='_1_4_1_1_1_11' class='box' transform='translate(590,973)'>
 <rect class='boxcompositor' x='0' y='8' width='60' height='31' rx='9'/>
 <circle cx='42' cy='14' r='2'/>
 <circle class='empty' cx='42' cy='23' r='2'/>
@@ -497,77 +519,77 @@ onmouseover='makeVisible("_1_2_1_1_1_10")' onmouseout='makeHidden("_1_2_1_1_1_10
 <polyline points='26,23 34,23 34,14 40,14'/>
 <text x='5' y='52'>0..∞</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
-<use x='59' y='17' xlink:href='#minus' id='s_1_2_1_1_1_11' onclick='show("_1_2_1_1_1_11")'/>
+<use x='59' y='17' xlink:href='#minus' id='s_1_4_1_1_1_11' onclick='show("_1_4_1_1_1_11")'/>
 </g>
 
-<g id='_1_2_1_1_1_11_1' class='box' transform='translate(695,831)'>
+<g id='_1_4_1_1_1_11_1' class='box' transform='translate(695,973)'>
 <rect class='shadow' x='3' y='3' width='81' height='46'/>
 <rect class='boxelement' x='0' y='0' width='81' height='46'
-onmouseover='makeVisible("_1_2_1_1_1_11_1")' onmouseout='makeHidden("_1_2_1_1_1_11_1")'/>
+onmouseover='makeVisible("_1_4_1_1_1_11_1")' onmouseout='makeHidden("_1_4_1_1_1_11_1")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>fastpls</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
-<use x='80' y='17' xlink:href='#minus' id='s_1_2_1_1_1_11_1' onclick='show("_1_2_1_1_1_11_1")'/>
+<use x='80' y='17' xlink:href='#minus' id='s_1_4_1_1_1_11_1' onclick='show("_1_4_1_1_1_11_1")'/>
 </g>
 
-<g id='_1_2_1_1_1_11_1_1' class='box' transform='translate(821,831)'>
+<g id='_1_4_1_1_1_11_1_1' class='box' transform='translate(821,973)'>
 <rect class='shadow' x='3' y='3' width='93' height='46' rx='9'/>
 <rect class='boxattribute1' x='0' y='0' width='93' height='46' rx='9'
-onmouseover='makeVisible("_1_2_1_1_1_11_1_1")' onmouseout='makeHidden("_1_2_1_1_1_11_1_1")'/>
+onmouseover='makeVisible("_1_4_1_1_1_11_1_1")' onmouseout='makeHidden("_1_4_1_1_1_11_1_1")'/>
 <text class='strong' x='5' y='27'><tspan class='big'>@</tspan> format</text>
 <text class='visible' x='5' y='41'>type: NCName</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>use: required</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_2_1_1_1_11_2' class='box' transform='translate(695,902)'>
+<g id='_1_4_1_1_1_11_2' class='box' transform='translate(695,1044)'>
 <rect class='shadow' x='3' y='3' width='93' height='46'/>
 <rect class='boxelement' x='0' y='0' width='93' height='46'
-onmouseover='makeVisible("_1_2_1_1_1_11_2")' onmouseout='makeHidden("_1_2_1_1_1_11_2")'/>
+onmouseover='makeVisible("_1_4_1_1_1_11_2")' onmouseout='makeHidden("_1_4_1_1_1_11_2")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>highestpls</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
-<use x='92' y='17' xlink:href='#minus' id='s_1_2_1_1_1_11_2' onclick='show("_1_2_1_1_1_11_2")'/>
+<use x='92' y='17' xlink:href='#minus' id='s_1_4_1_1_1_11_2' onclick='show("_1_4_1_1_1_11_2")'/>
 </g>
 
-<g id='_1_2_1_1_1_11_2_1' class='box' transform='translate(833,902)'>
+<g id='_1_4_1_1_1_11_2_1' class='box' transform='translate(833,1044)'>
 <rect class='shadow' x='3' y='3' width='93' height='46' rx='9'/>
 <rect class='boxattribute1' x='0' y='0' width='93' height='46' rx='9'
-onmouseover='makeVisible("_1_2_1_1_1_11_2_1")' onmouseout='makeHidden("_1_2_1_1_1_11_2_1")'/>
+onmouseover='makeVisible("_1_4_1_1_1_11_2_1")' onmouseout='makeHidden("_1_4_1_1_1_11_2_1")'/>
 <text class='strong' x='5' y='27'><tspan class='big'>@</tspan> format</text>
 <text class='visible' x='5' y='41'>type: NCName</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>use: required</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_2_1_1_1_11_3' class='box' transform='translate(695,973)'>
+<g id='_1_4_1_1_1_11_3' class='box' transform='translate(695,1115)'>
 <rect class='shadow' x='3' y='3' width='81' height='46'/>
 <rect class='boxelement' x='0' y='0' width='81' height='46'
-onmouseover='makeVisible("_1_2_1_1_1_11_3")' onmouseout='makeHidden("_1_2_1_1_1_11_3")'/>
+onmouseover='makeVisible("_1_4_1_1_1_11_3")' onmouseout='makeHidden("_1_4_1_1_1_11_3")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>slowpls</text>
-<line class='connection' id='p_1_2_1_1_1_11_3' x1='-35' y1='-119' x2='-35' y2='-40'/>
+<line class='connection' id='p_1_4_1_1_1_11_3' x1='-35' y1='-119' x2='-35' y2='-40'/>
 <path class='connection' d='M-35,-40 Q-35,15 0,23'/>
-<use x='80' y='17' xlink:href='#minus' id='s_1_2_1_1_1_11_3' onclick='show("_1_2_1_1_1_11_3")'/>
+<use x='80' y='17' xlink:href='#minus' id='s_1_4_1_1_1_11_3' onclick='show("_1_4_1_1_1_11_3")'/>
 </g>
 
-<g id='_1_2_1_1_1_11_3_1' class='box' transform='translate(821,973)'>
+<g id='_1_4_1_1_1_11_3_1' class='box' transform='translate(821,1115)'>
 <rect class='shadow' x='3' y='3' width='93' height='46' rx='9'/>
 <rect class='boxattribute1' x='0' y='0' width='93' height='46' rx='9'
-onmouseover='makeVisible("_1_2_1_1_1_11_3_1")' onmouseout='makeHidden("_1_2_1_1_1_11_3_1")'/>
+onmouseover='makeVisible("_1_4_1_1_1_11_3_1")' onmouseout='makeHidden("_1_4_1_1_1_11_3_1")'/>
 <text class='strong' x='5' y='27'><tspan class='big'>@</tspan> format</text>
 <text class='visible' x='5' y='41'>type: NCName</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>use: required</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_2_1_1_1_12' class='box' transform='translate(590,1044)'>
+<g id='_1_4_1_1_1_12' class='box' transform='translate(590,1186)'>
 <rect class='shadow' x='3' y='3' width='93' height='46'/>
 <rect class='boxelement' x='0' y='0' width='93' height='46'
-onmouseover='makeVisible("_1_2_1_1_1_12")' onmouseout='makeHidden("_1_2_1_1_1_12")'/>
+onmouseover='makeVisible("_1_4_1_1_1_12")' onmouseout='makeHidden("_1_4_1_1_1_12")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>listeners</text>
@@ -576,39 +598,39 @@ onmouseover='makeVisible("_1_2_1_1_1_12")' onmouseout='makeHidden("_1_2_1_1_1_12
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_2_1_1_1_13' class='box' transform='translate(590,1115)'>
+<g id='_1_4_1_1_1_13' class='box' transform='translate(590,1257)'>
 <rect class='shadow' x='3' y='3' width='99' height='46'/>
 <rect class='boxelement' x='0' y='0' width='99' height='46'
-onmouseover='makeVisible("_1_2_1_1_1_13")' onmouseout='makeHidden("_1_2_1_1_1_13")'/>
+onmouseover='makeVisible("_1_4_1_1_1_13")' onmouseout='makeHidden("_1_4_1_1_1_13")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>lastPlaying</text>
 <text class='visible' x='5' y='41'>type: string</text>
 <text x='5' y='59'>0..1</text>
-<line class='connection' id='p_1_2_1_1_1_13' x1='-35' y1='-971' x2='-35' y2='-40'/>
+<line class='connection' id='p_1_4_1_1_1_13' x1='-35' y1='-971' x2='-35' y2='-40'/>
 <path class='connection' d='M-35,-40 Q-35,15 0,23'/>
 </g>
 
-<g id='_1_2_1_1_2' class='box' transform='translate(485,1186)'>
+<g id='_1_4_1_1_2' class='box' transform='translate(485,1328)'>
 <rect class='shadow' x='3' y='3' width='93' height='46' rx='9'/>
 <rect class='boxattribute1' x='0' y='0' width='93' height='46' rx='9'
-onmouseover='makeVisible("_1_2_1_1_2")' onmouseout='makeHidden("_1_2_1_1_2")'/>
+onmouseover='makeVisible("_1_4_1_1_2")' onmouseout='makeHidden("_1_4_1_1_2")'/>
 <text class='strong' x='5' y='27'><tspan class='big'>@</tspan> id</text>
 <text class='visible' x='5' y='41'>type: NMTOKEN</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>use: required</text>
-<line class='connection' id='p_1_2_1_1_2' x1='-35' y1='-1042' x2='-35' y2='-40'/>
+<line class='connection' id='p_1_4_1_1_2' x1='-35' y1='-1042' x2='-35' y2='-40'/>
 <path class='connection' d='M-35,-40 Q-35,15 0,23'/>
 </g>
 
-<g id='_1_2_2' class='box' transform='translate(254,1257)'>
+<g id='_1_4_2' class='box' transform='translate(254,1399)'>
 <rect class='boxidc' x='0' y='0' width='135' height='46' rx='9'/>
 <text class='strong' x='5' y='27'><tspan class='big'>U </tspan>ChannelIDUniqueKey</text>
-<line class='connection' id='p_1_2_2' x1='-35' y1='-1113' x2='-35' y2='-40'/>
+<line class='connection' id='p_1_4_2' x1='-35' y1='-1113' x2='-35' y2='-40'/>
 <path class='connection' d='M-35,-40 Q-35,15 0,23'/>
-<use x='134' y='17' xlink:href='#minus' id='s_1_2_2' onclick='show("_1_2_2")'/>
+<use x='134' y='17' xlink:href='#minus' id='s_1_4_2' onclick='show("_1_4_2")'/>
 </g>
 
-<g id='_1_2_2_1' class='box' transform='translate(434,1257)'>
+<g id='_1_4_2_1' class='box' transform='translate(434,1399)'>
 <rect class='boxselector' x='0' y='8' width='89' height='31' rx='9'/>
 <circle cx='12' cy='17' r='3'/>
 <circle class='empty' cx='12' cy='28' r='2'/>
@@ -618,19 +640,19 @@ onmouseover='makeVisible("_1_2_1_1_2")' onmouseout='makeHidden("_1_2_1_1_2")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_2_2_2' class='box' transform='translate(434,1328)'>
+<g id='_1_4_2_2' class='box' transform='translate(434,1470)'>
 <rect class='boxfield' x='0' y='8' width='65' height='31' rx='9'/>
 <rect class='empty' x='6' y='17' width='12' height='12'/>
 <rect class='empty' x='8' y='19' width='8' height='8'/>
 <text x='25' y='27'>./@id</text>
-<line class='connection' id='p_1_2_2_2' x1='-35' y1='-48' x2='-35' y2='-40'/>
+<line class='connection' id='p_1_4_2_2' x1='-35' y1='-48' x2='-35' y2='-40'/>
 <path class='connection' d='M-35,-40 Q-35,15 0,23'/>
 </g>
 
-<g id='_1_3' class='box' transform='translate(128,1399)'>
+<g id='_1_5' class='box' transform='translate(128,1541)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_3")' onmouseout='makeHidden("_1_3")'/>
+onmouseover='makeVisible("_1_5")' onmouseout='makeHidden("_1_5")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>twitter</text>
@@ -638,10 +660,10 @@ onmouseover='makeVisible("_1_3")' onmouseout='makeHidden("_1_3")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_4' class='box' transform='translate(128,1470)'>
+<g id='_1_6' class='box' transform='translate(128,1612)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_4")' onmouseout='makeHidden("_1_4")'/>
+onmouseover='makeVisible("_1_6")' onmouseout='makeHidden("_1_6")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>genre</text>
@@ -649,10 +671,10 @@ onmouseover='makeVisible("_1_4")' onmouseout='makeHidden("_1_4")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_5' class='box' transform='translate(128,1541)'>
+<g id='_1_7' class='box' transform='translate(128,1683)'>
 <rect class='shadow' x='3' y='3' width='93' height='46'/>
 <rect class='boxelement' x='0' y='0' width='93' height='46'
-onmouseover='makeVisible("_1_5")' onmouseout='makeHidden("_1_5")'/>
+onmouseover='makeVisible("_1_7")' onmouseout='makeHidden("_1_7")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>largeimage</text>
@@ -660,57 +682,35 @@ onmouseover='makeVisible("_1_5")' onmouseout='makeHidden("_1_5")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_6' class='box' transform='translate(128,1612)'>
+<g id='_1_8' class='box' transform='translate(128,1754)'>
 <rect class='shadow' x='3' y='3' width='81' height='46'/>
 <rect class='boxelement' x='0' y='0' width='81' height='46'
-onmouseover='makeVisible("_1_6")' onmouseout='makeHidden("_1_6")'/>
+onmouseover='makeVisible("_1_8")' onmouseout='makeHidden("_1_8")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>slowpls</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
-<use x='80' y='17' xlink:href='#minus' id='s_1_6' onclick='show("_1_6")'/>
+<use x='80' y='17' xlink:href='#minus' id='s_1_8' onclick='show("_1_8")'/>
 </g>
 
-<g id='_1_6_1' class='box' transform='translate(254,1612)'>
+<g id='_1_8_1' class='box' transform='translate(254,1754)'>
 <rect class='shadow' x='3' y='3' width='93' height='46' rx='9'/>
 <rect class='boxattribute1' x='0' y='0' width='93' height='46' rx='9'
-onmouseover='makeVisible("_1_6_1")' onmouseout='makeHidden("_1_6_1")'/>
+onmouseover='makeVisible("_1_8_1")' onmouseout='makeHidden("_1_8_1")'/>
 <text class='strong' x='5' y='27'><tspan class='big'>@</tspan> format</text>
 <text class='visible' x='5' y='41'>type: NCName</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>use: required</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_7' class='box' transform='translate(128,1683)'>
+<g id='_1_9' class='box' transform='translate(128,1825)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_7")' onmouseout='makeHidden("_1_7")'/>
+onmouseover='makeVisible("_1_9")' onmouseout='makeHidden("_1_9")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>title</text>
 <text class='visible' x='5' y='41'>type: string</text>
-<line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
-</g>
-
-<g id='_1_8' class='box' transform='translate(128,1754)'>
-<rect class='shadow' x='3' y='3' width='87' height='46'/>
-<rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_8")' onmouseout='makeHidden("_1_8")'/>
-<text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
-<text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
-<text class='strong' x='5' y='27'>image</text>
-<text class='visible' x='5' y='41'>type: anyURI</text>
-<line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
-</g>
-
-<g id='_1_9' class='box' transform='translate(128,1825)'>
-<rect class='shadow' x='3' y='3' width='93' height='46'/>
-<rect class='boxelement' x='0' y='0' width='93' height='46'
-onmouseover='makeVisible("_1_9")' onmouseout='makeHidden("_1_9")'/>
-<text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
-<text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
-<text class='strong' x='5' y='27'>updated</text>
-<text class='visible' x='5' y='41'>type: integer</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
@@ -720,8 +720,8 @@ onmouseover='makeVisible("_1_9")' onmouseout='makeHidden("_1_9")'/>
 onmouseover='makeVisible("_1_10")' onmouseout='makeHidden("_1_10")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
-<text class='strong' x='5' y='27'>djmail</text>
-<text class='visible' x='5' y='41'>type: string</text>
+<text class='strong' x='5' y='27'>image</text>
+<text class='visible' x='5' y='41'>type: anyURI</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
@@ -731,25 +731,47 @@ onmouseover='makeVisible("_1_10")' onmouseout='makeHidden("_1_10")'/>
 onmouseover='makeVisible("_1_11")' onmouseout='makeHidden("_1_11")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
-<text class='strong' x='5' y='27'>highestpls</text>
+<text class='strong' x='5' y='27'>updated</text>
+<text class='visible' x='5' y='41'>type: integer</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
-<use x='92' y='17' xlink:href='#minus' id='s_1_11' onclick='show("_1_11")'/>
 </g>
 
-<g id='_1_11_1' class='box' transform='translate(266,1967)'>
+<g id='_1_12' class='box' transform='translate(128,2038)'>
+<rect class='shadow' x='3' y='3' width='87' height='46'/>
+<rect class='boxelement' x='0' y='0' width='87' height='46'
+onmouseover='makeVisible("_1_12")' onmouseout='makeHidden("_1_12")'/>
+<text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
+<text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
+<text class='strong' x='5' y='27'>djmail</text>
+<text class='visible' x='5' y='41'>type: string</text>
+<line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
+</g>
+
+<g id='_1_13' class='box' transform='translate(128,2109)'>
+<rect class='shadow' x='3' y='3' width='93' height='46'/>
+<rect class='boxelement' x='0' y='0' width='93' height='46'
+onmouseover='makeVisible("_1_13")' onmouseout='makeHidden("_1_13")'/>
+<text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
+<text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
+<text class='strong' x='5' y='27'>highestpls</text>
+<line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
+<use x='92' y='17' xlink:href='#minus' id='s_1_13' onclick='show("_1_13")'/>
+</g>
+
+<g id='_1_13_1' class='box' transform='translate(266,2109)'>
 <rect class='shadow' x='3' y='3' width='93' height='46' rx='9'/>
 <rect class='boxattribute1' x='0' y='0' width='93' height='46' rx='9'
-onmouseover='makeVisible("_1_11_1")' onmouseout='makeHidden("_1_11_1")'/>
+onmouseover='makeVisible("_1_13_1")' onmouseout='makeHidden("_1_13_1")'/>
 <text class='strong' x='5' y='27'><tspan class='big'>@</tspan> format</text>
 <text class='visible' x='5' y='41'>type: NCName</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>use: required</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_12' class='box' transform='translate(128,2038)'>
+<g id='_1_14' class='box' transform='translate(128,2180)'>
 <rect class='shadow' x='3' y='3' width='99' height='46'/>
 <rect class='boxelement' x='0' y='0' width='99' height='46'
-onmouseover='makeVisible("_1_12")' onmouseout='makeHidden("_1_12")'/>
+onmouseover='makeVisible("_1_14")' onmouseout='makeHidden("_1_14")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>lastPlaying</text>
@@ -757,18 +779,29 @@ onmouseover='makeVisible("_1_12")' onmouseout='makeHidden("_1_12")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_13' class='box' transform='translate(128,2109)'>
+<g id='_1_15' class='box' transform='translate(128,2251)'>
+<rect class='shadow' x='3' y='3' width='123' height='46'/>
+<rect class='boxelement' x='0' y='0' width='123' height='46'
+onmouseover='makeVisible("_1_15")' onmouseout='makeHidden("_1_15")'/>
+<text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
+<text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
+<text class='strong' x='5' y='27'>lastPlayingYear</text>
+<text class='visible' x='5' y='41'>type: integer</text>
+<line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
+</g>
+
+<g id='_1_16' class='box' transform='translate(128,2322)'>
 <rect class='shadow' x='3' y='3' width='81' height='46'/>
 <rect class='boxelement' x='0' y='0' width='81' height='46'
-onmouseover='makeVisible("_1_13")' onmouseout='makeHidden("_1_13")'/>
+onmouseover='makeVisible("_1_16")' onmouseout='makeHidden("_1_16")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>channel</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
-<use x='80' y='17' xlink:href='#minus' id='s_1_13' onclick='show("_1_13")'/>
+<use x='80' y='17' xlink:href='#minus' id='s_1_16' onclick='show("_1_16")'/>
 </g>
 
-<g id='_1_13_1' class='box' transform='translate(254,2109)'>
+<g id='_1_16_1' class='box' transform='translate(254,2322)'>
 <rect class='boxcompositor' x='0' y='8' width='60' height='31' rx='9'/>
 <circle cx='42' cy='14' r='2'/>
 <circle cx='42' cy='23' r='2'/>
@@ -778,13 +811,13 @@ onmouseover='makeVisible("_1_13")' onmouseout='makeHidden("_1_13")'/>
 <text class='small' x='30' y='35'>3</text>
 <line x1='42' y1='14' x2='42' y2='32'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
-<use x='59' y='17' xlink:href='#minus' id='s_1_13_1' onclick='show("_1_13_1")'/>
+<use x='59' y='17' xlink:href='#minus' id='s_1_16_1' onclick='show("_1_16_1")'/>
 </g>
 
-<g id='_1_13_1_1' class='box' transform='translate(359,2109)'>
+<g id='_1_16_1_1' class='box' transform='translate(359,2322)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_13_1_1")' onmouseout='makeHidden("_1_13_1_1")'/>
+onmouseover='makeVisible("_1_16_1_1")' onmouseout='makeHidden("_1_16_1_1")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>title</text>
@@ -793,10 +826,10 @@ onmouseover='makeVisible("_1_13_1_1")' onmouseout='makeHidden("_1_13_1_1")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_13_1_2' class='box' transform='translate(359,2180)'>
+<g id='_1_16_1_2' class='box' transform='translate(359,2393)'>
 <rect class='shadow' x='3' y='3' width='99' height='46'/>
 <rect class='boxelement' x='0' y='0' width='99' height='46'
-onmouseover='makeVisible("_1_13_1_2")' onmouseout='makeHidden("_1_13_1_2")'/>
+onmouseover='makeVisible("_1_16_1_2")' onmouseout='makeHidden("_1_16_1_2")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>description</text>
@@ -805,10 +838,10 @@ onmouseover='makeVisible("_1_13_1_2")' onmouseout='makeHidden("_1_13_1_2")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_13_1_3' class='box' transform='translate(359,2251)'>
+<g id='_1_16_1_3' class='box' transform='translate(359,2464)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_13_1_3")' onmouseout='makeHidden("_1_13_1_3")'/>
+onmouseover='makeVisible("_1_16_1_3")' onmouseout='makeHidden("_1_16_1_3")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>dj</text>
@@ -817,10 +850,10 @@ onmouseover='makeVisible("_1_13_1_3")' onmouseout='makeHidden("_1_13_1_3")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_13_1_4' class='box' transform='translate(359,2322)'>
+<g id='_1_16_1_4' class='box' transform='translate(359,2535)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_13_1_4")' onmouseout='makeHidden("_1_13_1_4")'/>
+onmouseover='makeVisible("_1_16_1_4")' onmouseout='makeHidden("_1_16_1_4")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>djmail</text>
@@ -829,10 +862,10 @@ onmouseover='makeVisible("_1_13_1_4")' onmouseout='makeHidden("_1_13_1_4")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_13_1_5' class='box' transform='translate(359,2393)'>
+<g id='_1_16_1_5' class='box' transform='translate(359,2606)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_13_1_5")' onmouseout='makeHidden("_1_13_1_5")'/>
+onmouseover='makeVisible("_1_16_1_5")' onmouseout='makeHidden("_1_16_1_5")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>genre</text>
@@ -841,10 +874,10 @@ onmouseover='makeVisible("_1_13_1_5")' onmouseout='makeHidden("_1_13_1_5")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_13_1_6' class='box' transform='translate(359,2464)'>
+<g id='_1_16_1_6' class='box' transform='translate(359,2677)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_13_1_6")' onmouseout='makeHidden("_1_13_1_6")'/>
+onmouseover='makeVisible("_1_16_1_6")' onmouseout='makeHidden("_1_16_1_6")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>image</text>
@@ -853,10 +886,10 @@ onmouseover='makeVisible("_1_13_1_6")' onmouseout='makeHidden("_1_13_1_6")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_13_1_7' class='box' transform='translate(359,2535)'>
+<g id='_1_16_1_7' class='box' transform='translate(359,2748)'>
 <rect class='shadow' x='3' y='3' width='93' height='46'/>
 <rect class='boxelement' x='0' y='0' width='93' height='46'
-onmouseover='makeVisible("_1_13_1_7")' onmouseout='makeHidden("_1_13_1_7")'/>
+onmouseover='makeVisible("_1_16_1_7")' onmouseout='makeHidden("_1_16_1_7")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>largeimage</text>
@@ -865,10 +898,10 @@ onmouseover='makeVisible("_1_13_1_7")' onmouseout='makeHidden("_1_13_1_7")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_13_1_8' class='box' transform='translate(359,2606)'>
+<g id='_1_16_1_8' class='box' transform='translate(359,2819)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_13_1_8")' onmouseout='makeHidden("_1_13_1_8")'/>
+onmouseover='makeVisible("_1_16_1_8")' onmouseout='makeHidden("_1_16_1_8")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>xlimage</text>
@@ -877,10 +910,10 @@ onmouseover='makeVisible("_1_13_1_8")' onmouseout='makeHidden("_1_13_1_8")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_13_1_9' class='box' transform='translate(359,2677)'>
+<g id='_1_16_1_9' class='box' transform='translate(359,2890)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_13_1_9")' onmouseout='makeHidden("_1_13_1_9")'/>
+onmouseover='makeVisible("_1_16_1_9")' onmouseout='makeHidden("_1_16_1_9")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>twitter</text>
@@ -889,10 +922,10 @@ onmouseover='makeVisible("_1_13_1_9")' onmouseout='makeHidden("_1_13_1_9")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_13_1_10' class='box' transform='translate(359,2748)'>
+<g id='_1_16_1_10' class='box' transform='translate(359,2961)'>
 <rect class='shadow' x='3' y='3' width='93' height='46'/>
 <rect class='boxelement' x='0' y='0' width='93' height='46'
-onmouseover='makeVisible("_1_13_1_10")' onmouseout='makeHidden("_1_13_1_10")'/>
+onmouseover='makeVisible("_1_16_1_10")' onmouseout='makeHidden("_1_16_1_10")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>updated</text>
@@ -901,7 +934,7 @@ onmouseover='makeVisible("_1_13_1_10")' onmouseout='makeHidden("_1_13_1_10")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_13_1_11' class='box' transform='translate(359,2819)'>
+<g id='_1_16_1_11' class='box' transform='translate(359,3032)'>
 <rect class='boxcompositor' x='0' y='8' width='60' height='31' rx='9'/>
 <circle cx='42' cy='14' r='2'/>
 <circle class='empty' cx='42' cy='23' r='2'/>
@@ -909,77 +942,77 @@ onmouseover='makeVisible("_1_13_1_10")' onmouseout='makeHidden("_1_13_1_10")'/>
 <polyline points='26,23 34,23 34,14 40,14'/>
 <text x='5' y='52'>0..∞</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
-<use x='59' y='17' xlink:href='#minus' id='s_1_13_1_11' onclick='show("_1_13_1_11")'/>
+<use x='59' y='17' xlink:href='#minus' id='s_1_16_1_11' onclick='show("_1_16_1_11")'/>
 </g>
 
-<g id='_1_13_1_11_1' class='box' transform='translate(464,2819)'>
+<g id='_1_16_1_11_1' class='box' transform='translate(464,3032)'>
 <rect class='shadow' x='3' y='3' width='81' height='46'/>
 <rect class='boxelement' x='0' y='0' width='81' height='46'
-onmouseover='makeVisible("_1_13_1_11_1")' onmouseout='makeHidden("_1_13_1_11_1")'/>
+onmouseover='makeVisible("_1_16_1_11_1")' onmouseout='makeHidden("_1_16_1_11_1")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>fastpls</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
-<use x='80' y='17' xlink:href='#minus' id='s_1_13_1_11_1' onclick='show("_1_13_1_11_1")'/>
+<use x='80' y='17' xlink:href='#minus' id='s_1_16_1_11_1' onclick='show("_1_16_1_11_1")'/>
 </g>
 
-<g id='_1_13_1_11_1_1' class='box' transform='translate(590,2819)'>
+<g id='_1_16_1_11_1_1' class='box' transform='translate(590,3032)'>
 <rect class='shadow' x='3' y='3' width='93' height='46' rx='9'/>
 <rect class='boxattribute1' x='0' y='0' width='93' height='46' rx='9'
-onmouseover='makeVisible("_1_13_1_11_1_1")' onmouseout='makeHidden("_1_13_1_11_1_1")'/>
+onmouseover='makeVisible("_1_16_1_11_1_1")' onmouseout='makeHidden("_1_16_1_11_1_1")'/>
 <text class='strong' x='5' y='27'><tspan class='big'>@</tspan> format</text>
 <text class='visible' x='5' y='41'>type: NCName</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>use: required</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_13_1_11_2' class='box' transform='translate(464,2890)'>
+<g id='_1_16_1_11_2' class='box' transform='translate(464,3103)'>
 <rect class='shadow' x='3' y='3' width='93' height='46'/>
 <rect class='boxelement' x='0' y='0' width='93' height='46'
-onmouseover='makeVisible("_1_13_1_11_2")' onmouseout='makeHidden("_1_13_1_11_2")'/>
+onmouseover='makeVisible("_1_16_1_11_2")' onmouseout='makeHidden("_1_16_1_11_2")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>highestpls</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
-<use x='92' y='17' xlink:href='#minus' id='s_1_13_1_11_2' onclick='show("_1_13_1_11_2")'/>
+<use x='92' y='17' xlink:href='#minus' id='s_1_16_1_11_2' onclick='show("_1_16_1_11_2")'/>
 </g>
 
-<g id='_1_13_1_11_2_1' class='box' transform='translate(602,2890)'>
+<g id='_1_16_1_11_2_1' class='box' transform='translate(602,3103)'>
 <rect class='shadow' x='3' y='3' width='93' height='46' rx='9'/>
 <rect class='boxattribute1' x='0' y='0' width='93' height='46' rx='9'
-onmouseover='makeVisible("_1_13_1_11_2_1")' onmouseout='makeHidden("_1_13_1_11_2_1")'/>
+onmouseover='makeVisible("_1_16_1_11_2_1")' onmouseout='makeHidden("_1_16_1_11_2_1")'/>
 <text class='strong' x='5' y='27'><tspan class='big'>@</tspan> format</text>
 <text class='visible' x='5' y='41'>type: NCName</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>use: required</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_13_1_11_3' class='box' transform='translate(464,2961)'>
+<g id='_1_16_1_11_3' class='box' transform='translate(464,3174)'>
 <rect class='shadow' x='3' y='3' width='81' height='46'/>
 <rect class='boxelement' x='0' y='0' width='81' height='46'
-onmouseover='makeVisible("_1_13_1_11_3")' onmouseout='makeHidden("_1_13_1_11_3")'/>
+onmouseover='makeVisible("_1_16_1_11_3")' onmouseout='makeHidden("_1_16_1_11_3")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>slowpls</text>
-<line class='connection' id='p_1_13_1_11_3' x1='-35' y1='-119' x2='-35' y2='-40'/>
+<line class='connection' id='p_1_16_1_11_3' x1='-35' y1='-119' x2='-35' y2='-40'/>
 <path class='connection' d='M-35,-40 Q-35,15 0,23'/>
-<use x='80' y='17' xlink:href='#minus' id='s_1_13_1_11_3' onclick='show("_1_13_1_11_3")'/>
+<use x='80' y='17' xlink:href='#minus' id='s_1_16_1_11_3' onclick='show("_1_16_1_11_3")'/>
 </g>
 
-<g id='_1_13_1_11_3_1' class='box' transform='translate(590,2961)'>
+<g id='_1_16_1_11_3_1' class='box' transform='translate(590,3174)'>
 <rect class='shadow' x='3' y='3' width='93' height='46' rx='9'/>
 <rect class='boxattribute1' x='0' y='0' width='93' height='46' rx='9'
-onmouseover='makeVisible("_1_13_1_11_3_1")' onmouseout='makeHidden("_1_13_1_11_3_1")'/>
+onmouseover='makeVisible("_1_16_1_11_3_1")' onmouseout='makeHidden("_1_16_1_11_3_1")'/>
 <text class='strong' x='5' y='27'><tspan class='big'>@</tspan> format</text>
 <text class='visible' x='5' y='41'>type: NCName</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>use: required</text>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_13_1_12' class='box' transform='translate(359,3032)'>
+<g id='_1_16_1_12' class='box' transform='translate(359,3245)'>
 <rect class='shadow' x='3' y='3' width='93' height='46'/>
 <rect class='boxelement' x='0' y='0' width='93' height='46'
-onmouseover='makeVisible("_1_13_1_12")' onmouseout='makeHidden("_1_13_1_12")'/>
+onmouseover='makeVisible("_1_16_1_12")' onmouseout='makeHidden("_1_16_1_12")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>listeners</text>
@@ -988,34 +1021,67 @@ onmouseover='makeVisible("_1_13_1_12")' onmouseout='makeHidden("_1_13_1_12")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_13_1_13' class='box' transform='translate(359,3103)'>
+<g id='_1_16_1_13' class='box' transform='translate(359,3316)'>
 <rect class='shadow' x='3' y='3' width='99' height='46'/>
 <rect class='boxelement' x='0' y='0' width='99' height='46'
-onmouseover='makeVisible("_1_13_1_13")' onmouseout='makeHidden("_1_13_1_13")'/>
+onmouseover='makeVisible("_1_16_1_13")' onmouseout='makeHidden("_1_16_1_13")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>lastPlaying</text>
 <text class='visible' x='5' y='41'>type: string</text>
 <text x='5' y='59'>0..1</text>
-<line class='connection' id='p_1_13_1_13' x1='-35' y1='-971' x2='-35' y2='-40'/>
+<line class='connection' id='p_1_16_1_13' x1='-35' y1='-971' x2='-35' y2='-40'/>
 <path class='connection' d='M-35,-40 Q-35,15 0,23'/>
 </g>
 
-<g id='_1_13_2' class='box' transform='translate(254,3174)'>
+<g id='_1_16_2' class='box' transform='translate(254,3387)'>
 <rect class='shadow' x='3' y='3' width='93' height='46' rx='9'/>
 <rect class='boxattribute1' x='0' y='0' width='93' height='46' rx='9'
-onmouseover='makeVisible("_1_13_2")' onmouseout='makeHidden("_1_13_2")'/>
+onmouseover='makeVisible("_1_16_2")' onmouseout='makeHidden("_1_16_2")'/>
 <text class='strong' x='5' y='27'><tspan class='big'>@</tspan> id</text>
 <text class='visible' x='5' y='41'>type: NMTOKEN</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>use: required</text>
-<line class='connection' id='p_1_13_2' x1='-35' y1='-1042' x2='-35' y2='-40'/>
+<line class='connection' id='p_1_16_2' x1='-35' y1='-1042' x2='-35' y2='-40'/>
 <path class='connection' d='M-35,-40 Q-35,15 0,23'/>
 </g>
 
-<g id='_1_14' class='box' transform='translate(128,3245)'>
+<g id='_1_17' class='box' transform='translate(128,3458)'>
+<rect class='shadow' x='3' y='3' width='129' height='46'/>
+<rect class='boxelement' x='0' y='0' width='129' height='46'
+onmouseover='makeVisible("_1_17")' onmouseout='makeHidden("_1_17")'/>
+<text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
+<text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
+<text class='strong' x='5' y='27'>lastPlayingAlbum</text>
+<text class='visible' x='5' y='41'>type: string</text>
+<line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
+</g>
+
+<g id='_1_18' class='box' transform='translate(128,3529)'>
+<rect class='shadow' x='3' y='3' width='129' height='46'/>
+<rect class='boxelement' x='0' y='0' width='129' height='46'
+onmouseover='makeVisible("_1_18")' onmouseout='makeHidden("_1_18")'/>
+<text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
+<text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
+<text class='strong' x='5' y='27'>lastPlayingLabel</text>
+<text class='visible' x='5' y='41'>type: string</text>
+<line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
+</g>
+
+<g id='_1_19' class='box' transform='translate(128,3600)'>
+<rect class='shadow' x='3' y='3' width='135' height='46'/>
+<rect class='boxelement' x='0' y='0' width='135' height='46'
+onmouseover='makeVisible("_1_19")' onmouseout='makeHidden("_1_19")'/>
+<text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
+<text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
+<text class='strong' x='5' y='27'>lastPlayingArtist</text>
+<text class='visible' x='5' y='41'>type: string</text>
+<line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
+</g>
+
+<g id='_1_20' class='box' transform='translate(128,3671)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_14")' onmouseout='makeHidden("_1_14")'/>
+onmouseover='makeVisible("_1_20")' onmouseout='makeHidden("_1_20")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>dj</text>
@@ -1023,10 +1089,10 @@ onmouseover='makeVisible("_1_14")' onmouseout='makeHidden("_1_14")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_15' class='box' transform='translate(128,3316)'>
+<g id='_1_21' class='box' transform='translate(128,3742)'>
 <rect class='shadow' x='3' y='3' width='87' height='46'/>
 <rect class='boxelement' x='0' y='0' width='87' height='46'
-onmouseover='makeVisible("_1_15")' onmouseout='makeHidden("_1_15")'/>
+onmouseover='makeVisible("_1_21")' onmouseout='makeHidden("_1_21")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>xlimage</text>
@@ -1034,10 +1100,21 @@ onmouseover='makeVisible("_1_15")' onmouseout='makeHidden("_1_15")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_16' class='box' transform='translate(128,3387)'>
+<g id='_1_22' class='box' transform='translate(128,3813)'>
+<rect class='shadow' x='3' y='3' width='129' height='46'/>
+<rect class='boxelement' x='0' y='0' width='129' height='46'
+onmouseover='makeVisible("_1_22")' onmouseout='makeHidden("_1_22")'/>
+<text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
+<text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
+<text class='strong' x='5' y='27'>lastPlayingImage</text>
+<text class='visible' x='5' y='41'>type: anyURI</text>
+<line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
+</g>
+
+<g id='_1_23' class='box' transform='translate(128,3884)'>
 <rect class='shadow' x='3' y='3' width='93' height='46'/>
 <rect class='boxelement' x='0' y='0' width='93' height='46'
-onmouseover='makeVisible("_1_16")' onmouseout='makeHidden("_1_16")'/>
+onmouseover='makeVisible("_1_23")' onmouseout='makeHidden("_1_23")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>listeners</text>
@@ -1045,15 +1122,15 @@ onmouseover='makeVisible("_1_16")' onmouseout='makeHidden("_1_16")'/>
 <line class='connection' x1='-35' y1='23' x2='0' y2='23'/>
 </g>
 
-<g id='_1_17' class='box' transform='translate(128,3458)'>
+<g id='_1_24' class='box' transform='translate(128,3955)'>
 <rect class='shadow' x='3' y='3' width='99' height='46'/>
 <rect class='boxelement' x='0' y='0' width='99' height='46'
-onmouseover='makeVisible("_1_17")' onmouseout='makeHidden("_1_17")'/>
+onmouseover='makeVisible("_1_24")' onmouseout='makeHidden("_1_24")'/>
 <text class='hidden' visibility='hidden' x='5' y='13'>nillable: 0</text>
 <text class='hidden' visibility='hidden' x='5' y='41'>abstract: 0</text>
 <text class='strong' x='5' y='27'>description</text>
 <text class='visible' x='5' y='41'>type: string</text>
-<line class='connection' id='p_1_17' x1='-35' y1='-3385' x2='-35' y2='-40'/>
+<line class='connection' id='p_1_24' x1='-35' y1='-3882' x2='-35' y2='-40'/>
 <path class='connection' d='M-35,-40 Q-35,15 0,23'/>
 </g>
 

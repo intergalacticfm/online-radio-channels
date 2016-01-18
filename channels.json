@@ -47,9 +47,19 @@
         },
         "listeners": {
           "type": "string",
-          "pattern": "[0-9]+"
+          "pattern": "[0-9]*"
         },
-        "lastPlaying": "string"
+        "lastPlaying": "string",
+        "lastPlayingImage": "url",
+        "lastPlayingArtist": "string",
+        "lastPlayingAlbum": "string",
+        "lastPlayingTrack": "string",
+        "lastPlayingLabel": "string",
+        "lastPlayingCountry": "string",
+        "lastPlayingYear": {
+            "type": "string",
+            "pattern": "[0-9]*"
+        }
       }
     }
   }
