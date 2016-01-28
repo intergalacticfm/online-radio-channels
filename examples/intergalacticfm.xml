@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<channels xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="channels.xsd">
+<channels>
   <channel id="ifm1">
     <title><![CDATA[Intergalactic FM Main]]></title>
     <description><![CDATA[We're Friends!]]></description>
@@ -13,7 +13,7 @@
     <updated>1448463269</updated>
     <highestpls format="mp3">https://intergalacticfm.com/ifm1-128mp3.pls</highestpls>
     <highestpls format="aac">https://intergalacticfm.com/ifm1-128aac.pls</highestpls>
-    <listeners></listeners>
+    <listeners>0</listeners>
     <lastPlaying></lastPlaying>
   </channel>
   <channel id="ifm2">
@@ -29,7 +29,7 @@
     <updated>1448463269</updated>
     <highestpls format="mp3">https://intergalacticfm.com/ifm2-128mp3.pls</highestpls>
     <highestpls format="aac">https://intergalacticfm.com/ifm2-128aac.pls</highestpls>
-    <listeners></listeners>
+    <listeners>0</listeners>
     <lastPlaying></lastPlaying>
   </channel>
   <channel id="ifm4">
@@ -45,7 +45,7 @@
     <updated>1448463269</updated>
     <highestpls format="mp3">https://intergalacticfm.com/ifm4-128mp3.pls</highestpls>
     <highestpls format="aac">https://intergalacticfm.com/ifm4-128aac.pls</highestpls>
-    <listeners></listeners>
+    <listeners>0</listeners>
     <lastPlaying></lastPlaying>
   </channel>
   <channel id="ifm5">
@@ -60,7 +60,7 @@
     <twitter>IntergalacticFM</twitter>
     <updated>1448463269</updated>
     <highestpls format="mp3">https://intergalacticfm.com/ifm5-128mp3.pls</highestpls>
-    <listeners></listeners>
+    <listeners>0</listeners>
     <lastPlaying></lastPlaying>
   </channel>
   </channels>

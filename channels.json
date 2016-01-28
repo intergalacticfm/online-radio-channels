@@ -1,5 +1,10 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "name": "string",
+  "description": "string",
+  "url": "string",
+  "icon": "string",
+  "background": "string",
   "channels": {
     "type": "array",
     "uniqueItems": true,
