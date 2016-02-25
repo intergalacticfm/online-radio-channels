@@ -6,13 +6,13 @@
     <dj><![CDATA[]]></dj>
     <djmail><![CDATA[]]></djmail>
     <genre></genre>
-    <image>https://intergalacticfm.com/images/ifm1-120.png</image>
-    <largeimage>https://intergalacticfm.com/images/ifm1-256.png</largeimage>
-    <xlimage>https://intergalacticfm.com/images/ifm1-512.png</xlimage>
+    <image>http://intergalacticfm.com/images/ifm1-120.png</image>
+    <largeimage>http://intergalacticfm.com/images/ifm1-256.png</largeimage>
+    <xlimage>http://intergalacticfm.com/images/ifm1-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
     <updated>1448463269</updated>
-    <highestpls format="mp3">https://intergalacticfm.com/ifm1-128mp3.pls</highestpls>
-    <highestpls format="aac">https://intergalacticfm.com/ifm1-128aac.pls</highestpls>
+    <highestpls format="mp3">http://intergalacticfm.com/ifm1-128mp3.pls</highestpls>
+    <highestpls format="aac">http://intergalacticfm.com/ifm1-128aac.pls</highestpls>
     <listeners>0</listeners>
     <lastPlaying></lastPlaying>
   </channel>
@@ -22,13 +22,13 @@
     <dj><![CDATA[]]></dj>
     <djmail><![CDATA[]]></djmail>
     <genre></genre>
-    <image>https://intergalacticfm.com/images/ifm2-120.png</image>
-    <largeimage>https://intergalacticfm.com/images/ifm2-256.png</largeimage>
-    <xlimage>https://intergalacticfm.com/images/ifm2-512.png</xlimage>
+    <image>http://intergalacticfm.com/images/ifm2-120.png</image>
+    <largeimage>http://intergalacticfm.com/images/ifm2-256.png</largeimage>
+    <xlimage>http://intergalacticfm.com/images/ifm2-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
     <updated>1448463269</updated>
-    <highestpls format="mp3">https://intergalacticfm.com/ifm2-128mp3.pls</highestpls>
-    <highestpls format="aac">https://intergalacticfm.com/ifm2-128aac.pls</highestpls>
+    <highestpls format="mp3">http://intergalacticfm.com/ifm2-128mp3.pls</highestpls>
+    <highestpls format="aac">http://intergalacticfm.com/ifm2-128aac.pls</highestpls>
     <listeners>0</listeners>
     <lastPlaying></lastPlaying>
   </channel>
@@ -38,13 +38,13 @@
     <dj><![CDATA[]]></dj>
     <djmail><![CDATA[]]></djmail>
     <genre></genre>
-    <image>https://intergalacticfm.com/images/ifm4-120.png</image>
-    <largeimage>https://intergalacticfm.com/images/ifm4-256.png</largeimage>
-    <xlimage>https://intergalacticfm.com/images/ifm4-512.png</xlimage>
+    <image>http://intergalacticfm.com/images/ifm4-120.png</image>
+    <largeimage>http://intergalacticfm.com/images/ifm4-256.png</largeimage>
+    <xlimage>http://intergalacticfm.com/images/ifm4-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
     <updated>1448463269</updated>
-    <highestpls format="mp3">https://intergalacticfm.com/ifm4-128mp3.pls</highestpls>
-    <highestpls format="aac">https://intergalacticfm.com/ifm4-128aac.pls</highestpls>
+    <highestpls format="mp3">http://intergalacticfm.com/ifm4-128mp3.pls</highestpls>
+    <highestpls format="aac">http://intergalacticfm.com/ifm4-128aac.pls</highestpls>
     <listeners>0</listeners>
     <lastPlaying></lastPlaying>
   </channel>
@@ -54,12 +54,12 @@
     <dj><![CDATA[]]></dj>
     <djmail><![CDATA[]]></djmail>
     <genre></genre>
-    <image>https://intergalacticfm.com/images/ifm5-120.png</image>
-    <largeimage>https://intergalacticfm.com/images/ifm5-256.png</largeimage>
-    <xlimage>https://intergalacticfm.com/images/ifm5-512.png</xlimage>
+    <image>http://intergalacticfm.com/images/ifm5-120.png</image>
+    <largeimage>http://intergalacticfm.com/images/ifm5-256.png</largeimage>
+    <xlimage>http://intergalacticfm.com/images/ifm5-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
     <updated>1448463269</updated>
-    <highestpls format="mp3">https://intergalacticfm.com/ifm5-128mp3.pls</highestpls>
+    <highestpls format="mp3">http://intergalacticfm.com/ifm5-128mp3.pls</highestpls>
     <listeners>0</listeners>
     <lastPlaying></lastPlaying>
   </channel>
