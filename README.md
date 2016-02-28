@@ -12,6 +12,9 @@ Showcases of projects using the content of channel.xsd files are the folling:
 * The home theatre [Kodi](https://kodi.tv) has:
   * [SomaFM add-on](http://kodi.wiki/view/Add-on:SomaFM), see also its [GitHub project](https://github.com/Oderik/xbmc-somafm)
   * [Intergalactic FM add-on](http://kodi.wiki/view/Add-on:Intergalactic_FM), see also its [GitHub project](https://github.com/PanderMusubi/plugin.audio.intergalacticfm)
+* The music player [Clementine](https://clementine-player.org), see also its [GitHub project](https://github.com/clementine-player/Clementine), has:
+  * SomaFM service provider
+  * Intergalactic FM service provider ([under construction](https://github.com/clementine-player/Clementine/pull/5243))
 
 Tools that are practical to use in this context are http://jsoneditoronline.org and http://jsonviewer.stack.hu for JSON. At http://json-schema.org the definition of the JSON schema itself can be found. For XML the tool XML Copy Editor http://xml-copy-editor.sourceforge.net might come in handy.
 
