@@ -1,66 +1,66 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <channels>
   <channel id="ifm1">
     <title><![CDATA[Intergalactic FM Main]]></title>
     <description><![CDATA[We're Friends!]]></description>
     <dj><![CDATA[]]></dj>
     <djmail><![CDATA[]]></djmail>
-    <genre></genre>
+    <genre/>
     <image>http://intergalacticfm.com/images/ifm1-120.png</image>
     <largeimage>http://intergalacticfm.com/images/ifm1-256.png</largeimage>
     <xlimage>http://intergalacticfm.com/images/ifm1-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
-    <updated>1448463269</updated>
+    <updated>1462829324</updated>
     <highestpls format="mp3">http://intergalacticfm.com/ifm1-128mp3.pls</highestpls>
     <highestpls format="aac">http://intergalacticfm.com/ifm1-128aac.pls</highestpls>
     <listeners>0</listeners>
-    <lastPlaying></lastPlaying>
+    <lastPlaying/>
   </channel>
   <channel id="ifm2">
     <title><![CDATA[Intergalactic FM Classix]]></title>
     <description><![CDATA[Italo, Disco and Oldschool]]></description>
     <dj><![CDATA[]]></dj>
     <djmail><![CDATA[]]></djmail>
-    <genre></genre>
+    <genre/>
     <image>http://intergalacticfm.com/images/ifm2-120.png</image>
     <largeimage>http://intergalacticfm.com/images/ifm2-256.png</largeimage>
     <xlimage>http://intergalacticfm.com/images/ifm2-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
-    <updated>1448463269</updated>
+    <updated>1462829324</updated>
     <highestpls format="mp3">http://intergalacticfm.com/ifm2-128mp3.pls</highestpls>
     <highestpls format="aac">http://intergalacticfm.com/ifm2-128aac.pls</highestpls>
     <listeners>0</listeners>
-    <lastPlaying></lastPlaying>
+    <lastPlaying/>
   </channel>
   <channel id="ifm4">
     <title><![CDATA[Intergalactic FM Dream Machine]]></title>
     <description><![CDATA[Soundtracks & Exotica]]></description>
     <dj><![CDATA[]]></dj>
     <djmail><![CDATA[]]></djmail>
-    <genre></genre>
+    <genre/>
     <image>http://intergalacticfm.com/images/ifm4-120.png</image>
     <largeimage>http://intergalacticfm.com/images/ifm4-256.png</largeimage>
     <xlimage>http://intergalacticfm.com/images/ifm4-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
-    <updated>1448463269</updated>
+    <updated>1462829324</updated>
     <highestpls format="mp3">http://intergalacticfm.com/ifm4-128mp3.pls</highestpls>
     <highestpls format="aac">http://intergalacticfm.com/ifm4-128aac.pls</highestpls>
     <listeners>0</listeners>
-    <lastPlaying></lastPlaying>
+    <lastPlaying/>
   </channel>
   <channel id="ifm5">
     <title><![CDATA[Intergalactic FM The Garden]]></title>
     <description><![CDATA[Space & Ambient]]></description>
     <dj><![CDATA[]]></dj>
     <djmail><![CDATA[]]></djmail>
-    <genre></genre>
+    <genre/>
     <image>http://intergalacticfm.com/images/ifm5-120.png</image>
     <largeimage>http://intergalacticfm.com/images/ifm5-256.png</largeimage>
     <xlimage>http://intergalacticfm.com/images/ifm5-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
-    <updated>1448463269</updated>
+    <updated>1462829324</updated>
     <highestpls format="mp3">http://intergalacticfm.com/ifm5-128mp3.pls</highestpls>
     <listeners>0</listeners>
-    <lastPlaying></lastPlaying>
+    <lastPlaying/>
   </channel>
   </channels>
