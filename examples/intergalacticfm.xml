@@ -2,7 +2,7 @@
 <channels>
   <channel id="ifm1">
     <title><![CDATA[Intergalactic FM - Main]]></title>
-    <description><![CDATA[You are not alone]]></description>
+    <description><![CDATA[No Station Such Dedication]]></description>
     <dj><![CDATA[]]></dj>
     <djmail><![CDATA[]]></djmail>
     <genre/>
@@ -11,8 +11,8 @@
     <xlimage>https://intergalactic.fm/images/ifm1-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
     <updated>1476099454</updated>
-    <highestpls format="mp3">http://intergalacticfm.com/ifm1-128mp3.pls</highestpls>
-    <highestpls format="aac">http://intergalacticfm.com/ifm1-128aac.pls</highestpls>
+    <highestpls format="mp3">http://intergalactic.fm/ifm1-128mp3.pls</highestpls>
+    <highestpls format="aac">http://intergalactic.fm/ifm1-128aac.pls</highestpls>
     <listeners>0</listeners>
     <lastPlaying/>
   </channel>
@@ -27,14 +27,14 @@
     <xlimage>https://intergalactic.fm/images/ifm2-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
     <updated>1476099454</updated>
-    <highestpls format="mp3">http://intergalacticfm.com/ifm2-128mp3.pls</highestpls>
-    <highestpls format="aac">http://intergalacticfm.com/ifm2-128aac.pls</highestpls>
+    <highestpls format="mp3">http://intergalactic.fm/ifm2-128mp3.pls</highestpls>
+    <highestpls format="aac">http://intergalactic.fm/ifm2-128aac.pls</highestpls>
     <listeners>0</listeners>
     <lastPlaying/>
   </channel>
   <channel id="ifm5">
     <title><![CDATA[Intergalactic FM - The Garden]]></title>
-    <description><![CDATA[Space & Ambient]]></description>
+    <description><![CDATA[Space and Ambient]]></description>
     <dj><![CDATA[]]></dj>
     <djmail><![CDATA[]]></djmail>
     <genre/>
@@ -43,7 +43,7 @@
     <xlimage>https://intergalactic.fm/images/ifm5-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
     <updated>1476099454</updated>
-    <highestpls format="mp3">http://intergalacticfm.com/ifm5-128mp3.pls</highestpls>
+    <highestpls format="mp3">http://intergalactic.fm/ifm5-128mp3.pls</highestpls>
     <listeners>0</listeners>
     <lastPlaying/>
   </channel>
