@@ -12,7 +12,7 @@
     <twitter>IntergalacticFM</twitter>
     <updated>1476099454</updated>
     <highestpls format="mp3">http://intergalactic.fm/ifm1-128mp3.pls</highestpls>
-    <highestpls format="aac">http://intergalactic.fm/ifm1-128aac.pls</highestpls>
+    <!--highestpls format="aac">http://intergalactic.fm/ifm1-128aac.pls</highestpls-->
     <listeners>0</listeners>
     <lastPlaying/>
   </channel>
@@ -28,7 +28,7 @@
     <twitter>IntergalacticFM</twitter>
     <updated>1476099454</updated>
     <highestpls format="mp3">http://intergalactic.fm/ifm2-128mp3.pls</highestpls>
-    <highestpls format="aac">http://intergalactic.fm/ifm2-128aac.pls</highestpls>
+    <!--highestpls format="aac">http://intergalactic.fm/ifm2-128aac.pls</highestpls-->
     <listeners>0</listeners>
     <lastPlaying/>
   </channel>
