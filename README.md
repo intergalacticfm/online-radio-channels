@@ -19,4 +19,6 @@ Showcases of projects using the content of channel.xsd files are the folling:
 
 Tools that are practical to use in this context are http://jsoneditoronline.org and http://jsonviewer.stack.hu for JSON. At http://json-schema.org the definition of the JSON schema itself can be found. For XML the tool XML Copy Editor http://xml-copy-editor.sourceforge.net might come in handy.
 
+When editing a channels.xml file manually, e.g. for debugging purposes, see http://unixtimestamp.com to get a current timestamp for the updated element in the XML.
+
 This project also provides example XML and JSON files and scripts that validate them against their schema and report on their content. See the directory [examples](examples) for more. Note that at the moment there are no examples with disassembled last playing information, only with assembled last playing information.

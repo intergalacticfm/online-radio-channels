@@ -10,9 +10,9 @@
     <largeimage>https://intergalactic.fm/images/ifm1-256.png</largeimage>
     <xlimage>https://intergalactic.fm/images/ifm1-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
-    <updated>1476099454</updated>
+    <updated>1476108562</updated>
     <highestpls format="mp3">http://intergalactic.fm/ifm1-128mp3.pls</highestpls>
-    <!--highestpls format="aac">http://intergalactic.fm/ifm1-128aac.pls</highestpls-->
+    <highestpls format="aac">http://intergalactic.fm/ifm1-128aac.pls</highestpls>
     <listeners>0</listeners>
     <lastPlaying/>
   </channel>
@@ -26,9 +26,9 @@
     <largeimage>https://intergalactic.fm/images/ifm2-256.png</largeimage>
     <xlimage>https://intergalactic.fm/images/ifm2-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
-    <updated>1476099454</updated>
+    <updated>1476108562</updated>
     <highestpls format="mp3">http://intergalactic.fm/ifm2-128mp3.pls</highestpls>
-    <!--highestpls format="aac">http://intergalactic.fm/ifm2-128aac.pls</highestpls-->
+    <highestpls format="aac">http://intergalactic.fm/ifm2-128aac.pls</highestpls>
     <listeners>0</listeners>
     <lastPlaying/>
   </channel>
@@ -42,7 +42,7 @@
     <largeimage>https://intergalactic.fm/images/ifm5-256.png</largeimage>
     <xlimage>https://intergalactic.fm/images/ifm5-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
-    <updated>1476099454</updated>
+    <updated>1476108562</updated>
     <highestpls format="mp3">http://intergalactic.fm/ifm5-128mp3.pls</highestpls>
     <listeners>0</listeners>
     <lastPlaying/>
