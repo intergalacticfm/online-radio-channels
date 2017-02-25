@@ -10,14 +10,14 @@
     <largeimage>https://intergalactic.fm/images/ifm1-256.png</largeimage>
     <xlimage>https://intergalactic.fm/images/ifm1-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
-    <updated>1476108562</updated>
+    <updated>1488049824</updated>
     <highestpls format="mp3">http://intergalactic.fm/ifm1-128mp3.pls</highestpls>
     <highestpls format="aac">http://intergalactic.fm/ifm1-128aac.pls</highestpls>
     <listeners>0</listeners>
     <lastPlaying/>
   </channel>
   <channel id="ifm2">
-    <title><![CDATA[Intergalactic FM - Disco Fetish]]></title>
+    <title><![CDATA[Intergalactic FM - Classix]]></title>
     <description><![CDATA[Italo, Disco and Oldschool]]></description>
     <dj><![CDATA[]]></dj>
     <djmail><![CDATA[]]></djmail>
@@ -26,9 +26,26 @@
     <largeimage>https://intergalactic.fm/images/ifm2-256.png</largeimage>
     <xlimage>https://intergalactic.fm/images/ifm2-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
-    <updated>1476108562</updated>
+    <updated>1488049824</updated>
     <highestpls format="mp3">http://intergalactic.fm/ifm2-128mp3.pls</highestpls>
     <highestpls format="aac">http://intergalactic.fm/ifm2-128aac.pls</highestpls>
+    <listeners>0</listeners>
+    <lastPlaying/>
+  </channel>
+  <channel id="ifm4">
+    <title><![CDATA[Intergalactic FM - The Dream Machine]]></title>
+    <description><![CDATA[Soundtracks and Exotica]]></description>
+    <dj><![CDATA[]]></dj>
+    <djmail><![CDATA[]]></djmail>
+    <genre/>
+    <image>https://intergalactic.fm/images/ifm4-120.png</image>
+    <largeimage>https://intergalactic.fm/images/ifm4-256.png</largeimage>
+    <xlimage>https://intergalactic.fm/images/ifm4-512.png</xlimage>
+    <twitter>IntergalacticFM</twitter>
+    <updated>1488049824</updated>
+    <highestpls format="mp3">http://intergalactic.fm/ifm4-128mp3.pls</highestpls>
+    <highestpls format="aacp">http://intergalactic.tv:1935/radio/4/playlist.m3u8</highestpls>
+
     <listeners>0</listeners>
     <lastPlaying/>
   </channel>
@@ -42,8 +59,9 @@
     <largeimage>https://intergalactic.fm/images/ifm5-256.png</largeimage>
     <xlimage>https://intergalactic.fm/images/ifm5-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
-    <updated>1476108562</updated>
+    <updated>1488049824</updated>
     <highestpls format="mp3">http://intergalactic.fm/ifm5-128mp3.pls</highestpls>
+    <highestpls format="aacp">http://intergalactic.tv:1935/radio/5.stream/playlist.m3u8</highestpls>
     <listeners>0</listeners>
     <lastPlaying/>
   </channel>
