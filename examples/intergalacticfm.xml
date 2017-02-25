@@ -43,7 +43,7 @@
     <xlimage>https://intergalactic.fm/images/ifm4-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
     <updated>1488049824</updated>
-    <highestpls format="mp3">http://intergalactic.fm/ifm4-128mp3.pls</highestpls>
+    <!--highestpls format="mp3">http://intergalactic.fm/ifm4-128mp3.pls</highestpls-->
     <highestpls format="aacp">http://intergalactic.tv:1935/radio/4/playlist.m3u8</highestpls>
 
     <listeners>0</listeners>
@@ -60,7 +60,7 @@
     <xlimage>https://intergalactic.fm/images/ifm5-512.png</xlimage>
     <twitter>IntergalacticFM</twitter>
     <updated>1488049824</updated>
-    <highestpls format="mp3">http://intergalactic.fm/ifm5-128mp3.pls</highestpls>
+    <!--highestpls format="mp3">http://intergalactic.fm/ifm5-128mp3.pls</highestpls-->
     <highestpls format="aacp">http://intergalactic.tv:1935/radio/5.stream/playlist.m3u8</highestpls>
     <listeners>0</listeners>
     <lastPlaying/>
