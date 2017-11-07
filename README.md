@@ -22,3 +22,5 @@ Tools that are practical to use in this context are http://jsoneditoronline.org 
 When editing a channels.xml file manually, e.g. for debugging purposes, see http://unixtimestamp.com to get a current timestamp for the updated element in the XML.
 
 This project also provides example XML and JSON files and scripts that validate them against their schema and report on their content. See the directory [examples](examples) for more. Note that at the moment there are no examples with disassembled last playing information, only with assembled last playing information.
+
+Note that the files `.project` and `.pydevproject` are toe be used with liclips.
