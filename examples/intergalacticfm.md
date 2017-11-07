@@ -31,7 +31,7 @@ highestpls: aac http://intergalactic.fm/ifm1-128aac.pls
 ## channel id: ifm2
 
 
-title: Intergalactic FM - Classix
+title: Intergalactic FM - Disco Fetish
 
 
 description: Italo, Disco and Oldschool
@@ -81,28 +81,3 @@ xlimage: http://intergalacticfm.net/kodi/ifm4-512.png
 
 
 highestpls: mp3 http://intergalactic.fm/ifm4-128mp3.pls
-## channel id: ifm5
-
-
-title: Intergalactic FM - The Garden
-
-
-description: Space and Ambient
-
-
-image: http://intergalacticfm.net/kodi/ifm5-120.png
-
-[![http://intergalacticfm.net/kodi/ifm5-120.png](http://intergalacticfm.net/kodi/ifm5-120.png)](http://intergalacticfm.net/kodi/ifm5-120.png)
-
-
-largeimage: http://intergalacticfm.net/kodi/ifm5-256.png
-
-[![http://intergalacticfm.net/kodi/ifm5-256.png](http://intergalacticfm.net/kodi/ifm5-256.png)](http://intergalacticfm.net/kodi/ifm5-256.png)
-
-
-xlimage: http://intergalacticfm.net/kodi/ifm5-512.png
-
-[![http://intergalacticfm.net/kodi/ifm5-512.png](http://intergalacticfm.net/kodi/ifm5-512.png)](http://intergalacticfm.net/kodi/ifm5-512.png)
-
-
-highestpls: mp3 http://intergalactic.fm/ifm5-128mp3.pls
