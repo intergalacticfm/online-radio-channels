@@ -34,7 +34,7 @@ highestpls: aac http://intergalactic.fm/ifm1-128aac.pls
 title: Intergalactic FM - Disco Fetish
 
 
-description: Italo, Disco and Oldschool
+description: Italo and Disco
 
 
 image: http://intergalacticfm.net/kodi/ifm2-120.png
@@ -56,6 +56,31 @@ highestpls: mp3 http://intergalactic.fm/ifm2-128mp3.pls
 
 
 highestpls: aac http://intergalactic.fm/ifm2-128aac.pls
+## channel id: ifm3
+
+
+title: Intergalactic FM - Cybernetic Broadcasting System
+
+
+description: Electronix Utopia (CBS archives)
+
+
+image: http://intergalacticfm.net/kodi/ifm3-120.png
+
+[![http://intergalacticfm.net/kodi/ifm3-120.png](http://intergalacticfm.net/kodi/ifm3-120.png)](http://intergalacticfm.net/kodi/ifm3-120.png)
+
+
+largeimage: http://intergalacticfm.net/kodi/ifm3-256.png
+
+[![http://intergalacticfm.net/kodi/ifm3-256.png](http://intergalacticfm.net/kodi/ifm3-256.png)](http://intergalacticfm.net/kodi/ifm3-256.png)
+
+
+xlimage: http://intergalacticfm.net/kodi/ifm3-512.png
+
+[![http://intergalacticfm.net/kodi/ifm3-512.png](http://intergalacticfm.net/kodi/ifm3-512.png)](http://intergalacticfm.net/kodi/ifm3-512.png)
+
+
+highestpls: aac http://5.79.70.19/3
 ## channel id: ifm4
 
 
