@@ -24,10 +24,10 @@ xlimage: http://intergalacticfm.net/kodi/ifm1-512.png
 [![http://intergalacticfm.net/kodi/ifm1-512.png](http://intergalacticfm.net/kodi/ifm1-512.png)](http://intergalacticfm.net/kodi/ifm1-512.png)
 
 
-highestpls: mp3 http://intergalactic.fm/ifm1-128mp3.pls
+highestpls: mp3 http://radio.intergalactic.fm/1
 
 
-highestpls: aac http://intergalactic.fm/ifm1-128aac.pls
+highestpls: aac http://radio.intergalactic.fm/1aac
 ## channel id: ifm2
 
 
@@ -52,10 +52,10 @@ xlimage: http://intergalacticfm.net/kodi/ifm2-512.png
 [![http://intergalacticfm.net/kodi/ifm2-512.png](http://intergalacticfm.net/kodi/ifm2-512.png)](http://intergalacticfm.net/kodi/ifm2-512.png)
 
 
-highestpls: mp3 http://intergalactic.fm/ifm2-128mp3.pls
+highestpls: mp3 http://radio.intergalactic.fm/2
 
 
-highestpls: aac http://intergalactic.fm/ifm2-128aac.pls
+highestpls: aac http://radio.intergalactic.fm/2aac
 ## channel id: ifm3
 
 
@@ -80,7 +80,10 @@ xlimage: http://intergalacticfm.net/kodi/ifm3-512.png
 [![http://intergalacticfm.net/kodi/ifm3-512.png](http://intergalacticfm.net/kodi/ifm3-512.png)](http://intergalacticfm.net/kodi/ifm3-512.png)
 
 
-highestpls: aac http://5.79.70.19/3
+highestpls: mp3 http://radio.intergalactic.fm/3
+
+
+highestpls: aac http://radio.intergalactic.fm/3aac
 ## channel id: ifm4
 
 
@@ -105,4 +108,7 @@ xlimage: http://intergalacticfm.net/kodi/ifm4-512.png
 [![http://intergalacticfm.net/kodi/ifm4-512.png](http://intergalacticfm.net/kodi/ifm4-512.png)](http://intergalacticfm.net/kodi/ifm4-512.png)
 
 
-highestpls: mp3 http://intergalactic.fm/ifm4-128mp3.pls
+highestpls: mp3 http://radio.intergalactic.fm/4
+
+
+highestpls: aac http://radio.intergalactic.fm/4aac
